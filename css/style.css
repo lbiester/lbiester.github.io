@@ -1,0 +1,154 @@
+#header {
+	position: fixed;
+	height: 60px;
+	background-color: #333333;
+	width: 100%;
+	opacity: 0.9;
+	z-index: 1;
+}
+.section {
+	padding-top: 60px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	min-height: 100vh;
+	color: #333333;
+	font-size: 12pt;
+}
+@media (min-width: 1500px) {
+	.section {
+		font-size: 20pt;
+	}
+}
+
+@media (min-width: 2000px) {
+	.section {
+		font-size: 30pt;
+	}
+}
+div#home {
+	background-color: #BDD8DA;
+}
+div#about {
+	background-color: #DFEFF0;
+}
+div#contact {
+	background-color: #ECECEC;
+}
+
+.container {
+	margin: 0px !important;
+	min-width: 100% !important;
+}
+#header ul {
+	list-style: none;
+}
+#header li {
+	display: inline-block;
+}
+@media (min-width: 493px) {
+	#header li {
+	  line-height: 60px;
+	}
+}
+img.round-photo {
+	height: 250px;
+	border-radius: 150px;
+	margin-right: 60px;
+}
+img.square-photo {
+	height: 250px;
+	border-radius: 10px;
+	margin: 20px;
+}
+div#home-content {
+	margin-top: 10%;
+	margin-top: calc(50vh - 150px);
+}
+
+div#home-title {
+	padding-left: 60px;
+}
+
+div.resume-section {
+	padding-top: 10px;
+}
+
+div#email {
+	line-height: 3em;
+}
+
+a.nav-link:hover,
+a.nav-link.selected {
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 1px solid gray;
+}
+
+
+a#home-link:hover,
+a#home-link.selected {
+	color: #BDD8DA;
+}
+
+a#about-link:hover,
+a#about-link.selected {
+	color: #DFEFF0;
+}
+
+a#contact-link:hover,
+a#contact-link.selected {
+	color: #ECECEC;
+}
+
+a.nav-link {
+	font-size: 20px;
+	color: gray;
+	padding: 0px 20px;
+}
+
+a.social-links {
+	color: #333333;
+}
+
+a i.fa-linkedin-square:hover {
+	color: #1A84BC;
+}
+
+a i.fa-google-plus-square:hover {
+	color: #DC2714;
+}
+
+a i.fa-twitter-square:hover {
+	color: #32CCFE;
+}
+
+a i.fa-github-square:hover {
+	color: #000000;
+}
+
+a i.fa-facebook-square:hover {
+	color: #476EB1;
+}
+
+a.download-btn {
+	width: 100%;
+}
+
+div.about-section {
+	padding: 10px;
+	/*border: 1px solid white;
+	border-radius: 5px;*/
+}
+
+@media (max-width: 768px) {
+	.center-if {
+		text-align: center !important;
+	}
+}
+
+@media (max-width: 500px) {
+	img.round-photo {
+		margin-right: 0px !important;
+	}
+}
