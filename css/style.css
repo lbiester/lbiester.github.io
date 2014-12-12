@@ -152,3 +152,7 @@ div.about-section {
 		margin-right: 0px !important;
 	}
 }
+
+a.nav-link:active {
+    text-decoration: none;
+}

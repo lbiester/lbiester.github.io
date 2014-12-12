@@ -10,18 +10,5 @@ $(document).ready(function() {
 				$('a.selected').removeClass('selected');
 				$('a#contact-link').addClass('selected');
 			}
-
-	});
-	$('a#home-link').click(function() {
-		$('body').animate({scrollTop: $('div#home').offset().top}, '500');
-	});
-	$('a#about-link').click(function() {
-		$('body').animate({scrollTop: $('div#about').offset().top}, '500');
-	});
-	$('a#resume-link').click(function() {
-		$('body').animate({scrollTop: $('div#resume').offset().top}, '500');
-	});
-	$('a#contact-link').click(function() {
-		$('body').animate({scrollTop: $('div#contact').offset().top}, '500');
 	});
 });
