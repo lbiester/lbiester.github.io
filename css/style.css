@@ -1,4 +1,11 @@
-#header {
+/* Styles for laurabiester.com
+   Modified: 12-13-14
+   Author: Laura Biester */
+
+
+
+/* NAVIGATION BAR */
+nav {
 	position: fixed;
 	height: 60px;
 	background-color: #333333;
@@ -6,76 +13,30 @@
 	opacity: 0.9;
 	z-index: 1;
 }
-.section {
-	padding-top: 60px;
-	padding-right: 30px;
-	padding-left: 30px;
-	padding-bottom: 30px;
-	min-height: 100vh;
-	color: #333333;
-	font-size: 12pt;
-}
-@media (min-width: 1500px) {
-	.section {
-		font-size: 20pt;
-	}
-}
 
-@media (min-width: 2000px) {
-	.section {
-		font-size: 30pt;
-	}
-}
-div#home {
-	background-color: #BDD8DA;
-}
-div#about {
-	background-color: #DFEFF0;
-}
-div#contact {
-	background-color: #ECECEC;
-}
-
-.container {
-	margin: 0px !important;
-	min-width: 100% !important;
-}
-#header ul {
+nav ul {
 	list-style: none;
 }
-#header li {
+
+nav li {
 	display: inline-block;
 }
+
 @media (min-width: 493px) {
-	#header li {
+	nav li {
 	  line-height: 60px;
 	}
 }
-img.round-photo {
-	height: 250px;
-	border-radius: 150px;
-	margin-right: 60px;
-}
-img.square-photo {
-	height: 250px;
-	border-radius: 10px;
-	margin: 20px;
-}
-div#home-content {
-	margin-top: 10%;
-	margin-top: calc(50vh - 150px);
+
+/* NAVIGATION LINKS */
+a.nav-link {
+	font-size: 20px;
+	color: gray;
+	padding: 0px 20px;
 }
 
-div#home-title {
-	padding-left: 60px;
-}
-
-div.resume-section {
-	padding-top: 10px;
-}
-
-div#email {
-	line-height: 3em;
+a.nav-link:active {
+    text-decoration: none;
 }
 
 a.nav-link:hover,
@@ -84,7 +45,6 @@ a.nav-link.selected {
 	font-weight: bold;
 	border-bottom: 1px solid gray;
 }
-
 
 a#home-link:hover,
 a#home-link.selected {
@@ -101,10 +61,80 @@ a#contact-link.selected {
 	color: #ECECEC;
 }
 
-a.nav-link {
-	font-size: 20px;
-	color: gray;
-	padding: 0px 20px;
+
+/* PAGE SECTIONS */
+.section {
+	padding-top: 60px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	min-height: 100vh;
+	color: #333333;
+	font-size: 12pt;
+}
+
+@media (min-width: 1500px) {
+	.section {
+		font-size: 20pt;
+	}
+}
+
+@media (min-width: 2000px) {
+	.section {
+		font-size: 30pt;
+	}
+}
+
+
+/* HOME SECTION */
+div#home {
+	background-color: #BDD8DA;
+}
+
+div#home-title {
+	padding-left: 60px;
+}
+
+div#home-content {
+	margin-top: 10%;
+	margin-top: calc(50vh - 150px);
+}
+
+img.round-photo {
+	height: 250px;
+	border-radius: 150px;
+	margin-right: 60px;
+}
+
+@media (max-width: 500px) {
+	img.round-photo {
+		margin-right: 0px !important;
+	}
+}
+
+
+
+/* ABOUT SECTION */
+div#about {
+	background-color: #DFEFF0;
+}
+
+div.about-section {
+	padding: 10px;
+}
+
+a.download-btn {
+	width: 100%;
+}
+
+
+/* CONTACT SECTION */
+div#contact {
+	background-color: #ECECEC;
+}
+
+div#email {
+	line-height: 3em;
 }
 
 a.social-links {
@@ -131,28 +161,15 @@ a i.fa-facebook-square:hover {
 	color: #476EB1;
 }
 
-a.download-btn {
-	width: 100%;
-}
-
-div.about-section {
-	padding: 10px;
-	/*border: 1px solid white;
-	border-radius: 5px;*/
-}
-
 @media (max-width: 768px) {
 	.center-if {
 		text-align: center !important;
 	}
 }
 
-@media (max-width: 500px) {
-	img.round-photo {
-		margin-right: 0px !important;
-	}
-}
 
-a.nav-link:active {
-    text-decoration: none;
+/* OVERRIDE BOOTSTRAP */
+.container {
+	margin: 0px !important;
+	min-width: 100% !important;
 }
