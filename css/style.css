@@ -56,6 +56,11 @@ a#about-link.selected {
 	color: #DFEFF0;
 }
 
+a#skills-link:hover,
+a#skills-link.selected {
+	color: #FFFFFF;
+}
+
 a#contact-link:hover,
 a#contact-link.selected {
 	color: #ECECEC;
@@ -123,6 +128,8 @@ div.about-section {
 	padding: 10px;
 }
 
+
+/* SKILLS SECTION */
 a.download-btn {
 	width: 100%;
 }
