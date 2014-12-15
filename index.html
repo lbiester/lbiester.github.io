@@ -2,12 +2,15 @@
 <html>
 <head>
 	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="css/style.css" rel="stylesheet" />
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/simple-hint.css" rel="stylesheet" />
 
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/skills.js"></script>
 	<script src="js/highlight.js"></script>
-    <script src="js/scroll.js"></script>
+  <script src="js/scroll.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Laura Biester</title>
@@ -111,60 +114,70 @@ Bala Cynwyd, Pennsylvania.
 
 		<!-- SKILLS SECTION -->
 		<div class="section row" id="skills">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h2>Skills</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 about-section">
-					</div>
-					<div class="row">
-						<div class="col-sm-3">
-							Front End
-							<ul>
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>Javascript</li>
-								<li>AngularJS</li>
-								<li>jQuery</li>
-							</ul>
-						</div>
-						<div class="col-sm-3">
-							Back End
-							<ul>
-								<li>Java</li>
-								<li>Python</li>
-								<li>SQL</li>
-								<li>RESTful Web Services</li>
-							</ul>
-						</div>
-						<div class="col-sm-3">
-							Other
-							<ul>
-								<li>Eclipse IDE</li>
-								<li>Version Control</li>
-								<li>LaTeX</li>
-							</ul>
-						</div>
-						<div class="col-sm-3">
-							Foreign Language
-							<ul>
-								<li>Mandarin Chinese</li>
-								<li>French</li>
-								<li>Spanish</li>
-							</ul>
-						</div>
+			<div class="col-xs-12">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h2>Skills</h2>
 					</div>
 				</div>
-			<div class="row">
-				<div class="col-sm-8">
+				<div class="row skills-row">
+					<div class="col-sm-3 col-xs-6 skill-info">
+						<h4 class="text-center"><strong>HTML5</strong></h4>
+						<img src="images/skills/html.png" class="grayscale center-block" />
+					</div>
+					<div class="col-sm-3 col-xs-6 skill-info">
+						<h4 class="text-center"><strong>CSS3</strong></h4>
+						<span simple-hint="Frameworks: Bootstrap" class="hint-bottom-s-small-mobile hint-animate">
+							<img src="images/skills/css.png" class="grayscale center-block" />
+						</span>
+					</div>
+					<div class="col-sm-3 col-xs-6 skill-info">
+						<h4 class="text-center"><strong>JavaScript</strong></h4>
+						<span simple-hint="Frameworks: jQuery, Bootstrap" class="hint-bottom-s-small-mobile hint-animate">
+							<img src="images/skills/javascript.png" class="grayscale center-block" />
+						</span>
+					</div>
+					<div class="col-sm-3 col-xs-6 skill-info">
+						<h4 class="text-center"><strong>AngularJS</strong></h4>
+						<img src="images/skills/angular.png" class="grayscale center-block" />
+					</div>
 				</div>
-				<div class="col-sm-4">
-					<a type="submit" class="btn btn-default download-btn"
-							href="files/resume_laura_biester.pdf" target="_blank">
-						<i class="fa fa-download"></i> Download Resume
-					</a>
+				<div class="row skills-row">
+					<div class="col-sm-3 col-xs-6 skill-info">
+						<h4 class="text-center"><strong>Python</strong></h4>
+						<span simple-hint="Frameworks: Flask" class="hint-bottom-s-small-mobile hint-animate">
+							<img src="images/skills/python.png" class="grayscale center-block" />
+						</span>
+					</div>
+					<div class="col-sm-3 col-xs-6 skill-info">
+						<h4 class="text-center"><strong>Java</strong></h4>
+							<img src="images/skills/java.png" class="grayscale center-block" />
+					</div>
+					<div class="col-sm-3 col-xs-6 skill-info">
+						<h4 class="text-center"><strong>SQL</strong></h4>
+						<span simple-hint="Types: PostgreSQL, MSSQL, SQLite" class="hint-bottom-s-small-mobile hint-animate">
+							<img src="images/skills/sql.png" class="grayscale center-block" />
+						</span>
+					</div>
+					<div class="col-sm-3 col-xs-6 skill-info">
+						<h4 class="text-center"><strong>Git</strong></h4>
+						<span simple-hint="Other Version Control: Subversion, Mercurial" class="hint-bottom-s-small-mobile hint-animate">
+							<img src="images/skills/git.png" class="grayscale center-block" />
+						</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-8">
+						<span class="hide-mobile">
+							<em>Hover over skills to see related technologies when available.</em>
+						</span>
+					</div>
+					<div class="col-sm-4">
+						<a type="submit" class="btn btn-default download-btn"
+								href="files/resume_laura_biester.pdf" target="_blank">
+							<i class="fa fa-download"></i> Download Resume
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -134,6 +134,36 @@ a.download-btn {
 	width: 100%;
 }
 
+div.skills-row {
+	min-height: 150px;
+}
+
+div.skills-row div {
+	height: inherit;
+}
+
+div.skills-row div img {
+	height: 150px;
+	padding: 10px 0px;
+}
+
+div.skill-info {
+	heightL inherit;
+}
+
+img.grayscale {
+	-webkit-filter: grayscale(1);
+	filter: gray;
+	filter: grayscale(1);
+}
+
+@media only screen and (max-width: 768px) {
+	.hide-mobile {
+		display: none;
+	}
+}
+
+
 
 /* CONTACT SECTION */
 div#contact {
