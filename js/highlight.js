@@ -12,9 +12,21 @@ $(document).ready(function() {
 				if ($(window).width() < 768 && !colorFadedIn) {
 					fadeInColor();
 				}
-			} else {
+			}
+			// allows contact to be highlighted when the user is (approximately)
+			// at the bottom of the page
+			if ($(window).scrollTop() + $(window).height() > getDocHeight() - 50) {
 				$('a.selected').removeClass('selected');
 				$('a#contact-link').addClass('selected');
 			}
 	});
 });
+
+// thanks to http://stackoverflow.com/questions/3898130/how-to-check-if-a-user-has-scrolled-to-the-bottom
+function getDocHeight() {
+	var D = document;
+	return Math.max(
+		D.body.scrollHeight, D.documentElement.scrollHeight,
+		D.body.offsetHeight, D.documentElement.offsetHeight,
+		D.body.clientHeight, D.documentElement.clientHeight);
+}

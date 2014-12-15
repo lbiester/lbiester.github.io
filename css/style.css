@@ -1,4 +1,4 @@
-/* Styles for laurabiester.com
+w/* Styles for laurabiester.com
    Modified: 12-13-14
    Author: Laura Biester */
 
@@ -73,7 +73,6 @@ a#contact-link.selected {
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-bottom: 30px;
-	min-height: 100vh;
 	color: #333333;
 	font-size: 12pt;
 }
@@ -94,6 +93,7 @@ a#contact-link.selected {
 /* HOME SECTION */
 div#home {
 	background-color: #BDD8DA;
+	min-height: 100vh;
 }
 
 div#home-title {
