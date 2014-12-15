@@ -145,6 +145,7 @@ div.skills-row div {
 div.skills-row div img {
 	height: 150px;
 	padding: 10px 0px;
+	-webkit-transition:-webkit-filter 1.0s ease-in-out;
 }
 
 div.skill-info {

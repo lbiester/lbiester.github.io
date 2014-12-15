@@ -9,6 +9,9 @@ $(document).ready(function() {
 			} else if (window.pageYOffset < $('div#contact').offset().top) {
 				$('a.selected').removeClass('selected');
 				$('a#skills-link').addClass('selected');
+				if ($(window).width() < 768 && !colorFadedIn) {
+					fadeInColor();
+				}
 			} else {
 				$('a.selected').removeClass('selected');
 				$('a#contact-link').addClass('selected');
