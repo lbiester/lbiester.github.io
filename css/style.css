@@ -1,4 +1,4 @@
-w/* Styles for laurabiester.com
+/* Styles for laurabiester.com
    Modified: 12-13-14
    Author: Laura Biester */
 
@@ -10,7 +10,7 @@ nav {
 	height: 60px;
 	background-color: #333333;
 	width: 100%;
-	opacity: 0.9;
+	opacity: 0.95;
 	z-index: 1;
 }
 
