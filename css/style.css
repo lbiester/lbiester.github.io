@@ -43,7 +43,6 @@ a.nav-link:hover,
 a.nav-link.selected {
 	text-decoration: none;
 	font-weight: bold;
-	border-bottom: 1px solid gray;
 }
 
 a#home-link:hover,
@@ -58,12 +57,12 @@ a#about-link.selected {
 
 a#skills-link:hover,
 a#skills-link.selected {
-	color: #FFFFFF;
+	color: #ECECEC;
 }
 
 a#contact-link:hover,
 a#contact-link.selected {
-	color: #ECECEC;
+	color: #BDD8DA;
 }
 
 
@@ -130,6 +129,9 @@ div.about-section {
 
 
 /* SKILLS SECTION */
+div#skills {
+	background-color: #ECECEC;
+}
 a.download-btn {
 	width: 100%;
 }
@@ -169,7 +171,7 @@ img.grayscale {
 
 /* CONTACT SECTION */
 div#contact {
-	background-color: #ECECEC;
+	background-color: #BDD8DA;
 }
 
 div#email {
