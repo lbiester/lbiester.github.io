@@ -22,9 +22,15 @@ nav li {
 	display: inline-block;
 }
 
-@media (min-width: 493px) {
+@media (min-width: 480px) {
 	nav li {
 	  line-height: 60px;
+	}
+}
+
+@media (max-width: 480px) {
+	nav li {
+		width: 45%;
 	}
 }
 
