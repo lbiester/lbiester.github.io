@@ -97,7 +97,6 @@ a#contact-link.selected {
 
 /* HOME SECTION */
 div#home {
-	/*background-color: #BDD8DA;*/
 	background-image: url("../images/great_wall.jpg");
 	min-height: 100vh;
 	background-size: cover;
@@ -111,12 +110,6 @@ div#home-title {
 div#home-content {
 	margin-top: 10%;
 	margin-top: calc(50vh - 150px);
-}
-
-img.round-photo {
-	height: 250px;
-	border-radius: 150px;
-	margin-right: 60px;
 }
 
 @media (max-width: 500px) {
