@@ -97,8 +97,11 @@ a#contact-link.selected {
 
 /* HOME SECTION */
 div#home {
-	background-color: #BDD8DA;
+	/*background-color: #BDD8DA;*/
+	background-image: url("../images/great_wall.jpg");
 	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 div#home-title {
