@@ -103,6 +103,10 @@ div#home {
 	background-repeat: no-repeat;
 }
 
+div#home h1 {
+	font-size: 50px;
+}
+
 div#home-title {
 	padding-left: 60px;
 }
