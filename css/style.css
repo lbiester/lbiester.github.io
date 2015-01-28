@@ -49,6 +49,7 @@ a.nav-link:hover,
 a.nav-link.selected {
 	text-decoration: none;
 	font-weight: bold;
+	cursor: pointer;
 }
 
 a#home-link:hover,
