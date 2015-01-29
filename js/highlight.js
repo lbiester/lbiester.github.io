@@ -6,16 +6,19 @@ $(document).ready(function() {
 			} else if (window.pageYOffset < $('div#skills').offset().top - 5) {
 				$('a.selected').removeClass('selected');
 				$('a#about-link').addClass('selected');
-			} else if (window.pageYOffset < $('div#contact').offset().top - 5) {
+			} else if (window.pageYOffset < $('div#education').offset().top - 5) {
 				$('a.selected').removeClass('selected');
 				$('a#skills-link').addClass('selected');
 				if ($(window).width() < 768 && !colorFadedIn) {
 					fadeInColor();
 				}
+			} else if (window.pageYOffset < $('div#contact').offset().top - 5) {
+				$('a.selected').removeClass('selected');
+				$('a#education-link').addClass('selected');
 			}
 			// allows contact to be highlighted when the user is (approximately)
 			// at the bottom of the page
-			if ($(window).scrollTop() + $(window).height() > getDocHeight() - 50) {
+			if ($(window).scrollTop() + $(window).height() > getDocHeight() - 10) {
 				$('a.selected').removeClass('selected');
 				$('a#contact-link').addClass('selected');
 			}
