@@ -174,7 +174,11 @@ img.grayscale {
 	}
 }
 
-
+/* EDUCATION SECITON */
+div#education img {
+	height: 150px;
+	padding: 10px 0px;
+}
 
 /* CONTACT SECTION */
 div#contact {
