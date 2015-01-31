@@ -54,17 +54,22 @@ a.nav-link.selected {
 
 a#home-link:hover,
 a#home-link.selected {
-	color: #BDD8DA;
+	color: #FFFFFF;
 }
 
 a#about-link:hover,
 a#about-link.selected {
-	color: #DFEFF0;
+	color: #BDD8DA;
 }
 
 a#skills-link:hover,
 a#skills-link.selected {
 	color: #ECECEC;
+}
+
+a#education-link:hover,
+a#education-link.selected {
+	color: #DFEFF0;
 }
 
 a#contact-link:hover,
@@ -127,7 +132,7 @@ div#home-content {
 
 /* ABOUT SECTION */
 div#about {
-	background-color: #DFEFF0;
+	background-color: #BDD8DA;
 }
 
 div.about-section {
@@ -175,6 +180,9 @@ img.grayscale {
 }
 
 /* EDUCATION SECITON */
+div#education {
+	background-color: #DFEFF0;
+}
 div#education img {
 	height: 150px;
 	padding: 10px 0px;
