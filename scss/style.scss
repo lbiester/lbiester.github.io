@@ -61,29 +61,31 @@ a.nav-link {
   }
 }
 
-a#home-link:hover,
-a#home-link.selected {
-  color: #FFFFFF;
-}
+nav ul li a{
+  &#home-link:hover,
+  &#home-link.selected {
+    color: #FFFFFF;
+  }
 
-a#about-link:hover,
-a#about-link.selected {
-  color: $about-color;
-}
+  &#about-link:hover,
+  &#about-link.selected {
+    color: $about-color;
+  }
 
-a#skills-link:hover,
-a#skills-link.selected {
-  color: $skills-color;
-}
+  &#skills-link:hover,
+  &#skills-link.selected {
+    color: $skills-color;
+  }
 
-a#education-link:hover,
-a#education-link.selected {
-  color: $education-color;
-}
+  &#education-link:hover,
+  &#education-link.selected {
+    color: $education-color;
+  }
 
-a#contact-link:hover,
-a#contact-link.selected {
-  color: $contact-color;
+  &#contact-link:hover,
+  &#contact-link.selected {
+    color: $contact-color;
+  }
 }
 
 
@@ -94,16 +96,12 @@ a#contact-link.selected {
   padding-left: 30px;
   padding-bottom: 30px;
   font-size: 12pt;
-}
 
-@media (min-width: 1500px) {
-  .section {
+  @media (min-width: 1500px) {
     font-size: 20pt;
   }
-}
 
-@media (min-width: 2000px) {
-  .section {
+  @media (min-width: 2000px) {
     font-size: 30pt;
   }
 }
@@ -151,27 +149,27 @@ div#skills {
 
   div.skills-row {
     min-height: 150px;
-  }
 
-  div.skills-row div {
-    height: inherit;
-  }
+    div {
+      height: inherit;
 
-  div.skills-row div img {
-    height: 150px;
-    padding: 10px 0px;
-    -webkit-transition:-webkit-filter 1.0s ease-in-out;
+      img {
+        height: 150px;
+        padding: 10px 0px;
+        -webkit-transition:-webkit-filter 1.0s ease-in-out;
+      }
+
+      img.grayscale {
+        -webkit-filter: grayscale(1);
+        filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+        filter: gray;
+        filter: grayscale(1);
+      }
+    }
   }
 
   div.skill-info {
     height: inherit;
-  }
-
-  img.grayscale {
-    -webkit-filter: grayscale(1);
-    filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
-    filter: gray;
-    filter: grayscale(1);
   }
 
   @media only screen and (max-width: 768px) {
@@ -185,44 +183,48 @@ div#skills {
 /* EDUCATION SECITON */
 div#education {
   background-color: $education-color;
-}
-div#education img {
-  height: 150px;
-  padding: 10px 0px;
+
+  img {
+    height: 150px;
+    padding: 10px 0px;
+  }
 }
 
 /* CONTACT SECTION */
 div#contact {
   background-color: $contact-color;
+
+  div#email {
+    line-height: 3em;
+  }
+
+  a {
+    &.social-links {
+      color: #333333;
+    }
+
+    i.fa-linkedin-square:hover {
+      color: $linkedin-color;
+    }
+
+    i.fa-google-plus-square:hover {
+      color: $google-plus-color;
+    }
+
+    i.fa-twitter-square:hover {
+      color: $twitter-color;
+    }
+
+    i.fa-github-square:hover {
+      color: #000000;
+    }
+
+    i.fa-facebook-square:hover {
+      color: #476EB1;
+    }
+  }
 }
 
-div#email {
-  line-height: 3em;
-}
-
-a.social-links {
-  color: #333333;
-}
-
-a i.fa-linkedin-square:hover {
-  color: $linkedin-color;
-}
-
-a i.fa-google-plus-square:hover {
-  color: $google-plus-color;
-}
-
-a i.fa-twitter-square:hover {
-  color: $twitter-color;
-}
-
-a i.fa-github-square:hover {
-  color: #000000;
-}
-
-a i.fa-facebook-square:hover {
-  color: #476EB1;
-}
 
 @media (max-width: 768px) {
   .center-if {

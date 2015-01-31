@@ -32,24 +32,15 @@ a.nav-link {
     font-weight: bold;
     cursor: pointer; }
 
-a#home-link:hover,
-a#home-link.selected {
+nav ul li a#home-link:hover, nav ul li a#home-link.selected {
   color: #FFFFFF; }
-
-a#about-link:hover,
-a#about-link.selected {
+nav ul li a#about-link:hover, nav ul li a#about-link.selected {
   color: #BDD8DA; }
-
-a#skills-link:hover,
-a#skills-link.selected {
+nav ul li a#skills-link:hover, nav ul li a#skills-link.selected {
   color: #ECECEC; }
-
-a#education-link:hover,
-a#education-link.selected {
+nav ul li a#education-link:hover, nav ul li a#education-link.selected {
   color: #DFEFF0; }
-
-a#contact-link:hover,
-a#contact-link.selected {
+nav ul li a#contact-link:hover, nav ul li a#contact-link.selected {
   color: #BDD8DA; }
 
 /* PAGE SECTIONS */
@@ -59,13 +50,13 @@ a#contact-link.selected {
   padding-left: 30px;
   padding-bottom: 30px;
   font-size: 12pt; }
+  @media (min-width: 1500px) {
+    .section {
+      font-size: 20pt; } }
+  @media (min-width: 2000px) {
+    .section {
+      font-size: 30pt; } }
 
-@media (min-width: 1500px) {
-  .section {
-    font-size: 20pt; } }
-@media (min-width: 2000px) {
-  .section {
-    font-size: 30pt; } }
 /* HOME SECTION */
 div#home {
   background-image: url("../images/great_wall.jpg");
@@ -93,20 +84,20 @@ div#skills {
     width: 100%; }
   div#skills div.skills-row {
     min-height: 150px; }
-  div#skills div.skills-row div {
-    height: inherit; }
-  div#skills div.skills-row div img {
-    height: 150px;
-    padding: 10px 0px;
-    -webkit-transition: -webkit-filter 1.0s ease-in-out; }
+    div#skills div.skills-row div {
+      height: inherit; }
+      div#skills div.skills-row div img {
+        height: 150px;
+        padding: 10px 0px;
+        -webkit-transition: -webkit-filter 1.0s ease-in-out; }
+      div#skills div.skills-row div img.grayscale {
+        -webkit-filter: grayscale(1);
+        filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale");
+        /* Firefox 3.5+ */
+        filter: gray;
+        filter: grayscale(1); }
   div#skills div.skill-info {
     height: inherit; }
-  div#skills img.grayscale {
-    -webkit-filter: grayscale(1);
-    filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale");
-    /* Firefox 3.5+ */
-    filter: gray;
-    filter: grayscale(1); }
   @media only screen and (max-width: 768px) {
     div#skills .hide-mobile {
       display: none; } }
@@ -114,35 +105,27 @@ div#skills {
 /* EDUCATION SECITON */
 div#education {
   background-color: #DFEFF0; }
-
-div#education img {
-  height: 150px;
-  padding: 10px 0px; }
+  div#education img {
+    height: 150px;
+    padding: 10px 0px; }
 
 /* CONTACT SECTION */
 div#contact {
   background-color: #BDD8DA; }
-
-div#email {
-  line-height: 3em; }
-
-a.social-links {
-  color: #333333; }
-
-a i.fa-linkedin-square:hover {
-  color: #1A84BC; }
-
-a i.fa-google-plus-square:hover {
-  color: #DC2714; }
-
-a i.fa-twitter-square:hover {
-  color: #32CCFE; }
-
-a i.fa-github-square:hover {
-  color: #000000; }
-
-a i.fa-facebook-square:hover {
-  color: #476EB1; }
+  div#contact div#email {
+    line-height: 3em; }
+  div#contact a.social-links {
+    color: #333333; }
+  div#contact a i.fa-linkedin-square:hover {
+    color: #1A84BC; }
+  div#contact a i.fa-google-plus-square:hover {
+    color: #DC2714; }
+  div#contact a i.fa-twitter-square:hover {
+    color: #32CCFE; }
+  div#contact a i.fa-github-square:hover {
+    color: #000000; }
+  div#contact a i.fa-facebook-square:hover {
+    color: #476EB1; }
 
 @media (max-width: 768px) {
   .center-if {
