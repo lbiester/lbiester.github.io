@@ -1,235 +1,155 @@
 /* Styles for laurabiester.com
    Modified: 12-13-14
    Author: Laura Biester */
-
-
-
 /* NAVIGATION BAR */
 nav {
-	position: fixed;
-	height: 60px;
-	background-color: #333333;
-	width: 100%;
-	opacity: 0.95;
-	z-index: 1;
-}
-
-nav ul {
-	list-style: none;
-}
-
-nav li {
-	display: inline-block;
-}
+  position: fixed;
+  height: 60px;
+  background-color: #333333;
+  width: 100%;
+  opacity: 0.95;
+  z-index: 1; }
+  nav ul {
+    list-style: none; }
+    nav ul li {
+      display: inline-block; }
 
 @media (min-width: 480px) {
-	nav li {
-	  line-height: 60px;
-	}
-}
-
+  nav li {
+    line-height: 60px; } }
 @media (max-width: 480px) {
-	nav li {
-		width: 45%;
-	}
-}
-
+  nav li {
+    width: 45%; } }
 /* NAVIGATION LINKS */
 a.nav-link {
-	font-size: 20px;
-	color: gray;
-	padding: 0px 20px;
-}
-
-a.nav-link:active {
+  font-size: 20px;
+  color: gray;
+  padding: 0px 20px; }
+  a.nav-link:active {
+    text-decoration: none; }
+  a.nav-link:hover, a.nav-link.selected {
     text-decoration: none;
-}
-
-a.nav-link:hover,
-a.nav-link.selected {
-	text-decoration: none;
-	font-weight: bold;
-	cursor: pointer;
-}
+    font-weight: bold;
+    cursor: pointer; }
 
 a#home-link:hover,
 a#home-link.selected {
-	color: #FFFFFF;
-}
+  color: #FFFFFF; }
 
 a#about-link:hover,
 a#about-link.selected {
-	color: #BDD8DA;
-}
+  color: #BDD8DA; }
 
 a#skills-link:hover,
 a#skills-link.selected {
-	color: #ECECEC;
-}
+  color: #ECECEC; }
 
 a#education-link:hover,
 a#education-link.selected {
-	color: #DFEFF0;
-}
+  color: #DFEFF0; }
 
 a#contact-link:hover,
 a#contact-link.selected {
-	color: #BDD8DA;
-}
-
+  color: #BDD8DA; }
 
 /* PAGE SECTIONS */
 .section {
-	padding-top: 60px;
-	padding-right: 30px;
-	padding-left: 30px;
-	padding-bottom: 30px;
-	color: #333333;
-	font-size: 12pt;
-}
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  font-size: 12pt; }
 
 @media (min-width: 1500px) {
-	.section {
-		font-size: 20pt;
-	}
-}
-
+  .section {
+    font-size: 20pt; } }
 @media (min-width: 2000px) {
-	.section {
-		font-size: 30pt;
-	}
-}
-
-
+  .section {
+    font-size: 30pt; } }
 /* HOME SECTION */
 div#home {
-	background-image: url("../images/great_wall.jpg");
-	min-height: 100vh;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-div#home h1 {
-	font-size: 50px;
-}
-
-div#home-title {
-	padding-left: 60px;
-}
-
-div#home-content {
-	margin-top: 10%;
-	margin-top: calc(50vh - 150px);
-}
-
-@media (max-width: 500px) {
-	img.round-photo {
-		margin-right: 0px !important;
-	}
-}
-
-
+  background-image: url("../images/great_wall.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  div#home h1 {
+    font-size: 50px; }
+  div#home div#home-title {
+    padding-left: 60px; }
+  div#home div#home-content {
+    margin-top: 10%;
+    margin-top: calc(50vh - 150px); }
 
 /* ABOUT SECTION */
 div#about {
-	background-color: #BDD8DA;
-}
-
-div.about-section {
-	padding: 10px;
-}
-
+  background-color: #BDD8DA; }
+  div#about div.about-section {
+    padding: 10px; }
 
 /* SKILLS SECTION */
 div#skills {
-	background-color: #ECECEC;
-}
-a.download-btn {
-	width: 100%;
-}
-
-div.skills-row {
-	min-height: 150px;
-}
-
-div.skills-row div {
-	height: inherit;
-}
-
-div.skills-row div img {
-	height: 150px;
-	padding: 10px 0px;
-	-webkit-transition:-webkit-filter 1.0s ease-in-out;
-}
-
-div.skill-info {
-	height: inherit;
-}
-
-img.grayscale {
-	-webkit-filter: grayscale(1);
-	filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
-	filter: gray;
-	filter: grayscale(1);
-}
-
-@media only screen and (max-width: 768px) {
-	.hide-mobile {
-		display: none;
-	}
-}
+  background-color: #ECECEC; }
+  div#skills a.download-btn {
+    width: 100%; }
+  div#skills div.skills-row {
+    min-height: 150px; }
+  div#skills div.skills-row div {
+    height: inherit; }
+  div#skills div.skills-row div img {
+    height: 150px;
+    padding: 10px 0px;
+    -webkit-transition: -webkit-filter 1.0s ease-in-out; }
+  div#skills div.skill-info {
+    height: inherit; }
+  div#skills img.grayscale {
+    -webkit-filter: grayscale(1);
+    filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale");
+    /* Firefox 3.5+ */
+    filter: gray;
+    filter: grayscale(1); }
+  @media only screen and (max-width: 768px) {
+    div#skills .hide-mobile {
+      display: none; } }
 
 /* EDUCATION SECITON */
 div#education {
-	background-color: #DFEFF0;
-}
+  background-color: #DFEFF0; }
+
 div#education img {
-	height: 150px;
-	padding: 10px 0px;
-}
+  height: 150px;
+  padding: 10px 0px; }
 
 /* CONTACT SECTION */
 div#contact {
-	background-color: #BDD8DA;
-}
+  background-color: #BDD8DA; }
 
 div#email {
-	line-height: 3em;
-}
+  line-height: 3em; }
 
 a.social-links {
-	color: #333333;
-}
+  color: #333333; }
 
 a i.fa-linkedin-square:hover {
-	color: #1A84BC;
-}
+  color: #1A84BC; }
 
 a i.fa-google-plus-square:hover {
-	color: #DC2714;
-}
+  color: #DC2714; }
 
 a i.fa-twitter-square:hover {
-	color: #32CCFE;
-}
+  color: #32CCFE; }
 
 a i.fa-github-square:hover {
-	color: #000000;
-}
+  color: #000000; }
 
 a i.fa-facebook-square:hover {
-	color: #476EB1;
-}
+  color: #476EB1; }
 
 @media (max-width: 768px) {
-	.center-if {
-		text-align: center !important;
-	}
-}
-
-
+  .center-if {
+    text-align: center !important; } }
 /* OVERRIDE BOOTSTRAP */
 .container {
-	margin: 0px !important;
-	min-width: 100% !important;
-}
+  margin: 0px !important;
+  min-width: 100% !important; }
+
+/*# sourceMappingURL=style.css.map */

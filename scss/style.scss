@@ -1,0 +1,238 @@
+/* Styles for laurabiester.com
+   Modified: 12-13-14
+   Author: Laura Biester */
+
+
+$about-color: #BDD8DA;
+$skills-color: #ECECEC;
+$education-color: #DFEFF0;
+$contact-color: #BDD8DA;
+
+$linkedin-color: #1A84BC;
+$google-plus-color: #DC2714;
+$twitter-color: #32CCFE;
+$facebook-color: #476EB1;
+
+
+/* NAVIGATION BAR */
+nav {
+  position: fixed;
+  height: 60px;
+  background-color: #333333;
+  width: 100%;
+  opacity: 0.95;
+  z-index: 1;
+
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+    }
+  }
+}
+
+@media (min-width: 480px) {
+  nav li {
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav li {
+    width: 45%;
+  }
+}
+
+/* NAVIGATION LINKS */
+a.nav-link {
+  font-size: 20px;
+  color: gray;
+  padding: 0px 20px;
+
+  &:active {
+    text-decoration: none;
+  }
+
+  &:hover,
+  &.selected {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+a#home-link:hover,
+a#home-link.selected {
+  color: #FFFFFF;
+}
+
+a#about-link:hover,
+a#about-link.selected {
+  color: $about-color;
+}
+
+a#skills-link:hover,
+a#skills-link.selected {
+  color: $skills-color;
+}
+
+a#education-link:hover,
+a#education-link.selected {
+  color: $education-color;
+}
+
+a#contact-link:hover,
+a#contact-link.selected {
+  color: $contact-color;
+}
+
+
+/* PAGE SECTIONS */
+.section {
+  padding-top: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  font-size: 12pt;
+}
+
+@media (min-width: 1500px) {
+  .section {
+    font-size: 20pt;
+  }
+}
+
+@media (min-width: 2000px) {
+  .section {
+    font-size: 30pt;
+  }
+}
+
+
+/* HOME SECTION */
+div#home {
+  background-image: url("../images/great_wall.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  h1 {
+    font-size: 50px;
+  }
+
+  div#home-title {
+    padding-left: 60px;
+  }
+
+  div#home-content {
+    margin-top: 10%;
+    margin-top: calc(50vh - 150px);
+  }
+}
+
+/* ABOUT SECTION */
+div#about {
+  background-color: $about-color;
+
+  div.about-section {
+    padding: 10px;
+  }
+}
+
+
+
+/* SKILLS SECTION */
+div#skills {
+  background-color: $skills-color;
+
+  a.download-btn {
+    width: 100%;
+  }
+
+  div.skills-row {
+    min-height: 150px;
+  }
+
+  div.skills-row div {
+    height: inherit;
+  }
+
+  div.skills-row div img {
+    height: 150px;
+    padding: 10px 0px;
+    -webkit-transition:-webkit-filter 1.0s ease-in-out;
+  }
+
+  div.skill-info {
+    height: inherit;
+  }
+
+  img.grayscale {
+    -webkit-filter: grayscale(1);
+    filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray;
+    filter: grayscale(1);
+  }
+
+  @media only screen and (max-width: 768px) {
+    .hide-mobile {
+      display: none;
+    }
+  }
+}
+
+
+/* EDUCATION SECITON */
+div#education {
+  background-color: $education-color;
+}
+div#education img {
+  height: 150px;
+  padding: 10px 0px;
+}
+
+/* CONTACT SECTION */
+div#contact {
+  background-color: $contact-color;
+}
+
+div#email {
+  line-height: 3em;
+}
+
+a.social-links {
+  color: #333333;
+}
+
+a i.fa-linkedin-square:hover {
+  color: $linkedin-color;
+}
+
+a i.fa-google-plus-square:hover {
+  color: $google-plus-color;
+}
+
+a i.fa-twitter-square:hover {
+  color: $twitter-color;
+}
+
+a i.fa-github-square:hover {
+  color: #000000;
+}
+
+a i.fa-facebook-square:hover {
+  color: #476EB1;
+}
+
+@media (max-width: 768px) {
+  .center-if {
+    text-align: center !important;
+  }
+}
+
+
+/* OVERRIDE BOOTSTRAP */
+.container {
+  margin: 0px !important;
+  min-width: 100% !important;
+}
