@@ -32,15 +32,15 @@ nav {
   }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 612px) {
   nav li {
     line-height: 60px;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 612px) {
   nav li {
-    width: 45%;
+    width: 32%;
   }
 }
 
@@ -49,6 +49,9 @@ a.nav-link {
   font-size: 20px;
   color: gray;
   padding: 0px 20px;
+  @media (max-width: 612px) {
+    font-size: 15px;
+  }
 
   &:active {
     text-decoration: none;
