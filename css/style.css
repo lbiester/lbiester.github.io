@@ -14,16 +14,14 @@ nav {
     list-style: none; }
     nav ul li {
       display: inline-block; }
+      @media (max-width: 612px) {
+        nav ul li {
+          line-height: 30px;
+          width: 32%; } }
+      @media (min-width: 613px) {
+        nav ul li {
+          line-height: 60px; } }
 
-@media (min-width: 613px) {
-  nav li {
-    line-height: 60px; } }
-@media (max-width: 612px) {
-  nav li {
-    line-height: 30px; } }
-@media (max-width: 612px) {
-  nav li {
-    width: 32%; } }
 /* NAVIGATION LINKS */
 a.nav-link {
   font-size: 20px;
