@@ -231,6 +231,10 @@ div#contact {
 @media (max-width: 768px) {
   .center-if {
     text-align: center !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
   }
 }
 
