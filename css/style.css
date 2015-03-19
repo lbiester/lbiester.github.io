@@ -1,5 +1,5 @@
 /* Styles for laurabiester.com
-   Modified: 12-13-14
+   Modified: 3-18-15
    Author: Laura Biester */
 /* NAVIGATION BAR */
 nav {
@@ -85,8 +85,26 @@ div#about {
 /* SKILLS SECTION */
 div#skills {
   background-color: #ECECEC; }
-  div#skills a.download-btn {
-    width: 100%; }
+  div#skills a.download-button,
+  div#skills a.download-button:active,
+  div#skills a.download-button:visited {
+    width: 100%;
+    display: inline-block;
+    background-color: #DFEFF0;
+    border: 1px solid #999999;
+    color: #333333;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+    transition: all .4s ease-in-out; }
+    div#skills a.download-button:hover,
+    div#skills a.download-button:active:hover,
+    div#skills a.download-button:visited:hover {
+      background-color: #BDD8DA;
+      text-decoration: none;
+      border-radius: 5px; }
   div#skills div.skills-row {
     min-height: 150px; }
     div#skills div.skills-row div {
