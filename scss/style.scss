@@ -17,26 +17,40 @@ $main-color: #333333;
 
 /* NAVIGATION BAR */
 nav {
-  position: fixed;
-  height: 60px;
-  background-color: $main-color;
+  z-index: 1;
   width: 100%;
   margin: 0px !important;
-  opacity: 0.95;
-  z-index: 1;
+  position: fixed;
 
-  ul {
-    list-style: none;
-    li {
-      display: inline-block;
+  div {
+    margin: 0px;
+    padding: 0px !important;
+  }
 
-      @media (max-width: 768px) {
-        line-height: 30px;
-        width: 32%;
-      }
+  @media (min-width: 769px) {
+    height: 60px;
+    background-color: $main-color;
+    opacity: 0.95;
 
-      @media (min-width: 769px) {
+    ul {
+      list-style: none;
+      li {
+        display: inline-block;
         line-height: 60px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    ul {
+      padding: 0px;
+      li {
+        display: block;
+        background-color: $main-color;
+        opacity: 0.95;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        border-bottom: 1px solid gray;
       }
     }
   }
@@ -48,10 +62,6 @@ a.nav-link {
   font-size: 20px;
   color: gray;
   padding: 0px 20px;
-  @media (max-width: 768px) {
-    font-size: 15px;
-  }
-
   &:active {
     text-decoration: none;
   }

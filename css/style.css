@@ -3,33 +3,39 @@
    Author: Laura Biester */
 /* NAVIGATION BAR */
 nav {
-  position: fixed;
-  height: 60px;
-  background-color: #333333;
+  z-index: 1;
   width: 100%;
   margin: 0px !important;
-  opacity: 0.95;
-  z-index: 1; }
-  nav ul {
-    list-style: none; }
-    nav ul li {
-      display: inline-block; }
-      @media (max-width: 768px) {
+  position: fixed; }
+  nav div {
+    margin: 0px;
+    padding: 0px !important; }
+  @media (min-width: 769px) {
+    nav {
+      height: 60px;
+      background-color: #333333;
+      opacity: 0.95; }
+      nav ul {
+        list-style: none; }
         nav ul li {
-          line-height: 30px;
-          width: 32%; } }
-      @media (min-width: 769px) {
-        nav ul li {
+          display: inline-block;
           line-height: 60px; } }
+  @media (max-width: 768px) {
+    nav ul {
+      padding: 0px; }
+      nav ul li {
+        display: block;
+        background-color: #333333;
+        opacity: 0.95;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        border-bottom: 1px solid gray; } }
 
 /* NAVIGATION LINKS */
 a.nav-link {
   font-size: 20px;
   color: gray;
   padding: 0px 20px; }
-  @media (max-width: 768px) {
-    a.nav-link {
-      font-size: 15px; } }
   a.nav-link:active {
     text-decoration: none; }
   a.nav-link:hover, a.nav-link.selected {
