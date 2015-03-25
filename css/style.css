@@ -6,30 +6,37 @@ nav {
   z-index: 1;
   width: 100%;
   margin: 0px !important;
-  position: fixed; }
+  position: fixed;
+  height: 60px;
+  background-color: #333333;
+  opacity: 0.95;
+  color: gray;
+  line-height: 60px; }
   nav div {
     margin: 0px;
     padding: 0px !important; }
   @media (min-width: 769px) {
-    nav {
-      height: 60px;
-      background-color: #333333;
-      opacity: 0.95; }
-      nav ul {
-        list-style: none; }
-        nav ul li {
-          display: inline-block;
-          line-height: 60px; } }
+    nav ul {
+      list-style: none; }
+      nav ul li {
+        display: inline-block;
+        /*         line-height: 60px;
+         */ }
+    nav span.mobile-links {
+      display: none; } }
   @media (max-width: 768px) {
     nav ul {
-      padding: 0px; }
+      padding: 0px;
+      display: none; }
       nav ul li {
         display: block;
         background-color: #333333;
         opacity: 0.95;
         border-left: 1px solid gray;
         border-right: 1px solid gray;
-        border-bottom: 1px solid gray; } }
+        border-bottom: 1px solid gray; }
+    nav span.mobile-links div {
+      padding: 0px 20px !important; } }
 
 /* NAVIGATION LINKS */
 a.nav-link {

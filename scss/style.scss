@@ -21,6 +21,11 @@ nav {
   width: 100%;
   margin: 0px !important;
   position: fixed;
+  height: 60px;
+  background-color: $main-color;
+  opacity: 0.95;
+  color: gray;
+  line-height: 60px;
 
   div {
     margin: 0px;
@@ -28,29 +33,36 @@ nav {
   }
 
   @media (min-width: 769px) {
-    height: 60px;
-    background-color: $main-color;
-    opacity: 0.95;
 
     ul {
       list-style: none;
       li {
         display: inline-block;
-        line-height: 60px;
-      }
+/*         line-height: 60px;
+ */      }
+    }
+
+    span.mobile-links {
+      display: none;
     }
   }
 
   @media (max-width: 768px) {
     ul {
       padding: 0px;
-      li {
+      display: none;
+     li {
         display: block;
         background-color: $main-color;
         opacity: 0.95;
         border-left: 1px solid gray;
         border-right: 1px solid gray;
         border-bottom: 1px solid gray;
+      }
+    }
+    span.mobile-links {
+      div {
+        padding: 0px 20px !important;
       }
     }
   }
