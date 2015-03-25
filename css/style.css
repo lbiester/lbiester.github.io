@@ -14,11 +14,11 @@ nav {
     list-style: none; }
     nav ul li {
       display: inline-block; }
-      @media (max-width: 612px) {
+      @media (max-width: 768px) {
         nav ul li {
           line-height: 30px;
           width: 32%; } }
-      @media (min-width: 613px) {
+      @media (min-width: 769px) {
         nav ul li {
           line-height: 60px; } }
 
@@ -27,7 +27,7 @@ a.nav-link {
   font-size: 20px;
   color: gray;
   padding: 0px 20px; }
-  @media (max-width: 612px) {
+  @media (max-width: 768px) {
     a.nav-link {
       font-size: 15px; } }
   a.nav-link:active {

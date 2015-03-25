@@ -30,12 +30,12 @@ nav {
     li {
       display: inline-block;
 
-      @media (max-width: 612px) {
+      @media (max-width: 768px) {
         line-height: 30px;
         width: 32%;
       }
 
-      @media (min-width: 613px) {
+      @media (min-width: 769px) {
         line-height: 60px;
       }
     }
@@ -48,7 +48,7 @@ a.nav-link {
   font-size: 20px;
   color: gray;
   padding: 0px 20px;
-  @media (max-width: 612px) {
+  @media (max-width: 768px) {
     font-size: 15px;
   }
 
