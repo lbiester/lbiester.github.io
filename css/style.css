@@ -35,8 +35,12 @@ nav {
         border-left: 1px solid gray;
         border-right: 1px solid gray;
         border-bottom: 1px solid gray; }
-    nav span.mobile-links div {
-      padding: 0px 20px !important; } }
+    nav span.mobile-links {
+      color: gray; }
+      nav span.mobile-links div {
+        padding: 0px 20px !important; }
+        nav span.mobile-links div span#current-section {
+          font-weight: bold; } }
 
 /* NAVIGATION LINKS */
 a.nav-link {
@@ -175,5 +179,8 @@ div#contact {
   margin: 0px !important;
   min-width: 100% !important;
   padding: 0px !important; }
+
+div.transparent {
+  background-color: transparent; }
 
 /*# sourceMappingURL=style.css.map */
