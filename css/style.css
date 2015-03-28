@@ -42,17 +42,28 @@ nav {
         nav span.mobile-links div span#current-section {
           font-weight: bold; } }
 
-/* NAVIGATION LINKS */
-a.nav-link {
+/* ALL NAVIGATION TEXT */
+nav {
   font-size: 20px;
-  color: gray;
-  padding: 0px 20px; }
-  a.nav-link:active {
+  color: gray; }
+
+/* NAVIGATION LINKS */
+a.nav-link,
+a#show-links {
+  font-size: 20px;
+  color: gray; }
+  a.nav-link:active,
+  a#show-links:active {
     text-decoration: none; }
-  a.nav-link:hover, a.nav-link.selected {
+  a.nav-link:hover, a.nav-link.selected,
+  a#show-links:hover,
+  a#show-links.selected {
     text-decoration: none;
     font-weight: bold;
     cursor: pointer; }
+
+a.nav-link {
+  padding: 0px 20px; }
 
 nav ul li a#home-link:hover, nav ul li a#home-link.selected {
   color: #FFFFFF; }

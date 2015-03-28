@@ -74,11 +74,17 @@ nav {
 }
 
 
-/* NAVIGATION LINKS */
-a.nav-link {
+/* ALL NAVIGATION TEXT */
+nav {
   font-size: 20px;
   color: gray;
-  padding: 0px 20px;
+}
+
+/* NAVIGATION LINKS */
+a.nav-link,
+a#show-links {
+  font-size: 20px;
+  color: gray;
   &:active {
     text-decoration: none;
   }
@@ -90,8 +96,11 @@ a.nav-link {
     cursor: pointer;
   }
 }
+a.nav-link {
+  padding: 0px 20px;
+}
 
-nav ul li a{
+nav ul li a {
   &#home-link:hover,
   &#home-link.selected {
     color: #FFFFFF;
