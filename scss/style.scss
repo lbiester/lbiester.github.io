@@ -38,8 +38,7 @@ nav {
       list-style: none;
       li {
         display: inline-block;
-/*         line-height: 60px;
- */      }
+      }
     }
 
     span.mobile-links {
@@ -55,9 +54,9 @@ nav {
         display: block;
         background-color: $main-color;
         opacity: 0.95;
-        border-left: 1px solid gray;
-        border-right: 1px solid gray;
-        border-bottom: 1px solid gray;
+/*         border-left: 1px solid gray;
+border-right: 1px solid gray;
+ */        border-bottom: 1px solid gray;
       }
     }
     span.mobile-links {

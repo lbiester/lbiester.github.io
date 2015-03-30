@@ -19,9 +19,7 @@ nav {
     nav ul {
       list-style: none; }
       nav ul li {
-        display: inline-block;
-        /*         line-height: 60px;
-         */ }
+        display: inline-block; }
     nav span.mobile-links {
       display: none; } }
   @media (max-width: 768px) {
@@ -32,8 +30,9 @@ nav {
         display: block;
         background-color: #333333;
         opacity: 0.95;
-        border-left: 1px solid gray;
+        /*         border-left: 1px solid gray;
         border-right: 1px solid gray;
+         */
         border-bottom: 1px solid gray; }
     nav span.mobile-links {
       color: gray; }
