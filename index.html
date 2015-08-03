@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 	<link href="css/style.css" rel="stylesheet" />
 	<link href="css/simple-hint.css" rel="stylesheet" />
 	<link rel="shortcut icon" href="images/laura-icon.ico">
 
-	<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="js/skills.js"></script>
 	<script src="js/highlight.js"></script>
     <script src="js/scroll.js"></script>
@@ -18,43 +20,44 @@
 	<title>Laura Biester</title>
 </head>
 <body>
-	<div class="container">
-
-		<!-- NAVIGATION BAR-->
-		<nav class="row">
-			<div class="col-xs-12 text-center">
-				<ul>
-					<li><a id="home-link" class="nav-link selected" data-div="#home">Home</a></li>
-					<li><a id="about-link" class="nav-link" data-div="#about">About</a></li>
-					<li><a id="education-link" class="nav-link" data-div="#education">Education</a></li>
-					<li><a id="skills-link" class="nav-link" data-div="#skills">Skills</a></li>
-					<li><a id="contact-link" class="nav-link" data-div="#contact">Contact</a></li>
-				</ul>
+	<!-- NAVIGATION BAR-->
+	<nav class="row">
+		<div class="col-xs-12 text-center">
+			<ul>
+				<li><a id="home-link" class="nav-link selected" data-div="#home">Home</a></li>
+				<li><a id="about-link" class="nav-link" data-div="#about">About</a></li>
+				<li><a id="education-link" class="nav-link" data-div="#education">Education</a></li>
+				<li><a id="skills-link" class="nav-link" data-div="#skills">Skills</a></li>
+				<li><a id="contact-link" class="nav-link" data-div="#contact">Contact</a></li>
+			</ul>
+		</div>
+		<span class="mobile-links">
+			<div class="col-xs-10 text-left">
+				<span id="current-section">Home</span>
 			</div>
-			<span class="mobile-links">
-				<div class="col-xs-10 text-left">
-					<span id="current-section">Home</span>
-				</div>
-				<div class="col-xs-2 text-right">
-					<a id="show-links"><i class="fa fa-bars"></i></a>
-				</div>
-			</span>
-		</nav>
+			<div class="col-xs-2 text-right">
+				<a id="show-links"><i class="fa fa-bars"></i></a>
+			</div>
+		</span>
+	</nav>
 
-		<!-- HOME SECTION -->
-		<div class="section" id="home">
+	<!-- HOME SECTION -->
+	<div class="container-fluid" id="home">
+		<div class="section">
 			<div class="row center-block" id="home-content">
-				<div class="col-md-12" id="home-title">
+				<div class="col-md-12 text-center" id="home-title">
 					<h1>Laura Biester</h1>
 					<h4>Aspiring Software Engineer</h4>
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<!-- ABOUT SECTION -->
+	<!-- ABOUT SECTION -->
+	<div class="container">
 		<div class="section" id="about">
 			<div class="row">
-				<div class="col-md-12 text-center">
+				<div class="col-md-12">
 					<h2>About</h2>
 				</div>
 			</div>
@@ -76,29 +79,30 @@
 								interested in learning more about the MEAN stack and Ruby on Rails.
 							</p>
 							<p>
-								In my free time, I enjoy being outdoors, traveling, messing around at
-gymnastics club and of course, coding. I am
-spending my summer working at <a href="https://gumroad.com/">Gumroad
-</a> as an intern and <a href="http://kpcbfellows.com/">KPCB fellow</a>.
+								In my free time, I enjoy being outdoors, traveling, messing around at gymnastics club and of course, coding. I am
+								spending my summer working at <a href="https://gumroad.com/">Gumroad
+								</a> as an intern and <a href="http://kpcbfellows.com/">KPCB fellow</a>.
 							</p>
 
 						</div>
 					</div>
 				</div>
+			</div>
 		</div>
-		</div>
+	</div>
 
-		<!-- EDUCATION SECTION -->
+	<!-- EDUCATION SECTION -->
+	<div class="container">
 		<div class="section" id="education">
 			<div class="row">
-				<div class="col-md-12 text-center">
+				<div class="col-md-12">
 					<h2>Education</h2>
 				</div>
 			</div>
 			<br />
 			<div class="row">
 				<div class="col-sm-3">
-					<img src="images/carleton.png" class="pull-right center-if" />
+					<img src="images/carleton.png" class="pull-left center-if" />
 				</div>
 				<div class="col-sm-9 text-left">
 					<div class="row">
@@ -123,11 +127,13 @@ spending my summer working at <a href="https://gumroad.com/">Gumroad
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<!-- SKILLS SECTION -->
+	<!-- SKILLS SECTION -->
+	<div class="container">
 		<div class="section" id="skills">
 			<div class="row">
-				<div class="col-md-12 text-center">
+				<div class="col-md-12">
 					<h2>Skills</h2>
 				</div>
 			</div>
@@ -191,11 +197,13 @@ spending my summer working at <a href="https://gumroad.com/">Gumroad
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<!-- CONTACT SECTION -->
+	<!-- CONTACT SECTION -->
+	<div class="container">
 		<div class="section" id="contact">
 			<div class="row">
-				<div class="col-md-12 text-center">
+				<div class="col-md-12">
 					<h2>Contact</h2>
 				</div>
 			</div>
@@ -231,15 +239,6 @@ spending my summer working at <a href="https://gumroad.com/">Gumroad
 					<a href="https://www.facebook.com/lbiester" class="social-links"><i class="fa fa-facebook-square fa-4x"></i></a>
 				</div>
 			</div>
-			<footer class="row">
-				<div class="col-xs-12 text-center">
-					&copy;
-					<script type="text/javascript">
-						document.write(new Date().getFullYear());
-					</script>
-					Laura Biester
-				</div>
-			</footer>
 		</div>
 	</div>
 </body>

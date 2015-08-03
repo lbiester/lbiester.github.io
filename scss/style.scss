@@ -2,11 +2,12 @@
    Modified: 3-18-15
    Author: Laura Biester */
 
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
 
-$about-color: #BDD8DA;
-$skills-color: #ECECEC;
-$education-color: #DFEFF0;
-$contact-color: #BDD8DA;
+$about-color: #F0FFFD;
+$skills-color: #FFFFFF;
+$education-color: #FFFFFF;
+$contact-color: #FFFFFF;
 
 $linkedin-color: #1A84BC;
 $google-plus-color: #DC2714;
@@ -15,6 +16,10 @@ $facebook-color: #476EB1;
 
 $main-color: #333333;
 
+body {
+  background-color: #FAFFFF;
+}
+
 /* NAVIGATION BAR */
 nav {
   z-index: 1;
@@ -22,8 +27,8 @@ nav {
   margin: 0px !important;
   position: fixed;
   height: 60px;
-  background-color: $main-color;
-  opacity: 0.95;
+  background-color: #000000;
+  opacity: 0.99;
   color: gray;
   line-height: 60px;
 
@@ -82,6 +87,7 @@ nav {
 /* NAVIGATION LINKS */
 a.nav-link,
 a#show-links {
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   color: gray;
   &:active {
@@ -134,12 +140,19 @@ nav ul li a {
   padding-left: 30px;
   padding-bottom: 30px;
   font-size: 12pt;
+  font-family: "Raleway", sans-serif;
 
   @media (min-width: 1500px) {
     font-size: 20pt;
   }
 
   @media (min-width: 2000px) {
+    font-size: 30pt;
+  }
+
+  h2 {
+    font-family: "Poiret One", sans-serif;
+    text-transform: uppercase;
     font-size: 30pt;
   }
 }
@@ -153,7 +166,12 @@ div#home {
   background-repeat: no-repeat;
 
   h1 {
-    font-size: 50px;
+    font-size: 80px;
+    font-family: "Poiret One", "Raleway", sans-serif;
+  }
+
+  h4 {
+    font-family: "Raleway", sans-serif;
   }
 
   div#home-title {
@@ -168,8 +186,6 @@ div#home {
 
 /* ABOUT SECTION */
 div#about {
-  background-color: $about-color;
-
   div.about-section {
     padding: 10px;
   }
@@ -179,14 +195,11 @@ div#about {
 
 /* SKILLS SECTION */
 div#skills {
-  background-color: $skills-color;
-
   a.download-button,
   a.download-button:active,
   a.download-button:visited {
     width: 100%;
     display: inline-block;
-    background-color: $education-color;
     border: 1px solid #999999;
     color: $main-color;
     -webkit-border-radius: 4px;
@@ -196,7 +209,6 @@ div#skills {
     text-align: center;
     transition: all .4s ease-in-out;
     &:hover {
-      background-color: $contact-color;
       text-decoration: none;
       border-radius: 5px;
     }
@@ -237,8 +249,6 @@ div#skills {
 
 /* EDUCATION SECITON */
 div#education {
-  background-color: $education-color;
-
   img {
     height: 150px;
     padding: 10px 0px;
@@ -247,8 +257,6 @@ div#education {
 
 /* CONTACT SECTION */
 div#contact {
-  background-color: $contact-color;
-
   div#email {
     line-height: 3em;
   }
@@ -293,12 +301,6 @@ div#contact {
 
 
 /* OVERRIDE BOOTSTRAP */
-.container {
-  margin: 0px !important;
-  min-width: 100% !important;
-  padding: 0px !important;
-}
-
 div.transparent {
   background-color: transparent;
 }

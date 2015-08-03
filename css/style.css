@@ -1,6 +1,10 @@
 /* Styles for laurabiester.com
    Modified: 3-18-15
    Author: Laura Biester */
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+body {
+  background-color: #FAFFFF; }
+
 /* NAVIGATION BAR */
 nav {
   z-index: 1;
@@ -8,8 +12,8 @@ nav {
   margin: 0px !important;
   position: fixed;
   height: 60px;
-  background-color: #333333;
-  opacity: 0.95;
+  background-color: #000000;
+  opacity: 0.99;
   color: gray;
   line-height: 60px; }
   nav div {
@@ -49,6 +53,7 @@ nav {
 /* NAVIGATION LINKS */
 a.nav-link,
 a#show-links {
+  font-family: "Raleway", sans-serif;
   font-size: 20px;
   color: gray; }
   a.nav-link:active,
@@ -67,13 +72,13 @@ a.nav-link {
 nav ul li a#home-link:hover, nav ul li a#home-link.selected {
   color: #FFFFFF; }
 nav ul li a#about-link:hover, nav ul li a#about-link.selected {
-  color: #BDD8DA; }
+  color: #F0FFFD; }
 nav ul li a#skills-link:hover, nav ul li a#skills-link.selected {
-  color: #ECECEC; }
+  color: #FFFFFF; }
 nav ul li a#education-link:hover, nav ul li a#education-link.selected {
-  color: #DFEFF0; }
+  color: #FFFFFF; }
 nav ul li a#contact-link:hover, nav ul li a#contact-link.selected {
-  color: #BDD8DA; }
+  color: #FFFFFF; }
 
 /* PAGE SECTIONS */
 .section {
@@ -81,13 +86,20 @@ nav ul li a#contact-link:hover, nav ul li a#contact-link.selected {
   padding-right: 30px;
   padding-left: 30px;
   padding-bottom: 30px;
-  font-size: 12pt; }
+  font-size: 12pt;
+  font-family: "Raleway", sans-serif; }
   @media (min-width: 1500px) {
     .section {
       font-size: 20pt; } }
   @media (min-width: 2000px) {
     .section {
       font-size: 30pt; } }
+  .section h2 {
+    font-family: "Poiret One", sans-serif;
+    text-transform: uppercase;
+    font-size: 30pt;
+    -webkit-text-decoration: underline solid #34164D;
+    text-decoration: underline solid #34164D; }
 
 /* HOME SECTION */
 div#home {
@@ -96,7 +108,10 @@ div#home {
   background-size: cover;
   background-repeat: no-repeat; }
   div#home h1 {
-    font-size: 50px; }
+    font-size: 80px;
+    font-family: "Poiret One", "Raleway", sans-serif; }
+  div#home h4 {
+    font-family: "Raleway", sans-serif; }
   div#home div#home-title {
     padding-left: 60px; }
   div#home div#home-content {
@@ -104,78 +119,68 @@ div#home {
     margin-top: calc(50vh - 150px); }
 
 /* ABOUT SECTION */
-div#about {
-  background-color: #BDD8DA; }
-  div#about div.about-section {
-    padding: 10px; }
+div#about div.about-section {
+  padding: 10px; }
 
 /* SKILLS SECTION */
-div#skills {
-  background-color: #ECECEC; }
-  div#skills a.download-button,
-  div#skills a.download-button:active,
-  div#skills a.download-button:visited {
-    width: 100%;
-    display: inline-block;
-    background-color: #DFEFF0;
-    border: 1px solid #999999;
-    color: #333333;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    padding: 5px;
-    text-align: center;
-    transition: all .4s ease-in-out; }
-    div#skills a.download-button:hover,
-    div#skills a.download-button:active:hover,
-    div#skills a.download-button:visited:hover {
-      background-color: #BDD8DA;
-      text-decoration: none;
-      border-radius: 5px; }
-  div#skills div.skills-row {
-    min-height: 150px; }
-    div#skills div.skills-row div {
-      height: inherit; }
-      div#skills div.skills-row div img {
-        height: 150px;
-        padding: 10px 0px;
-        -webkit-transition: -webkit-filter 1.0s ease-in-out; }
-      div#skills div.skills-row div img.grayscale {
-        -webkit-filter: grayscale(1);
-        filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale");
-        /* Firefox 3.5+ */
-        filter: gray;
-        filter: grayscale(1); }
-  div#skills div.skill-info {
+div#skills a.download-button,
+div#skills a.download-button:active,
+div#skills a.download-button:visited {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #999999;
+  color: #333333;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+  transition: all .4s ease-in-out; }
+  div#skills a.download-button:hover,
+  div#skills a.download-button:active:hover,
+  div#skills a.download-button:visited:hover {
+    text-decoration: none;
+    border-radius: 5px; }
+div#skills div.skills-row {
+  min-height: 150px; }
+  div#skills div.skills-row div {
     height: inherit; }
-  @media only screen and (max-width: 768px) {
-    div#skills .hide-mobile {
-      display: none; } }
+    div#skills div.skills-row div img {
+      height: 150px;
+      padding: 10px 0px;
+      -webkit-transition: -webkit-filter 1.0s ease-in-out; }
+    div#skills div.skills-row div img.grayscale {
+      -webkit-filter: grayscale(1);
+      filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale");
+      /* Firefox 3.5+ */
+      filter: gray;
+      filter: grayscale(1); }
+div#skills div.skill-info {
+  height: inherit; }
+@media only screen and (max-width: 768px) {
+  div#skills .hide-mobile {
+    display: none; } }
 
 /* EDUCATION SECITON */
-div#education {
-  background-color: #DFEFF0; }
-  div#education img {
-    height: 150px;
-    padding: 10px 0px; }
+div#education img {
+  height: 150px;
+  padding: 10px 0px; }
 
 /* CONTACT SECTION */
-div#contact {
-  background-color: #BDD8DA; }
-  div#contact div#email {
-    line-height: 3em; }
-  div#contact a.social-links {
-    color: #333333; }
-  div#contact a i.fa-linkedin-square:hover {
-    color: #1A84BC; }
-  div#contact a i.fa-google-plus-square:hover {
-    color: #DC2714; }
-  div#contact a i.fa-twitter-square:hover {
-    color: #32CCFE; }
-  div#contact a i.fa-github-square:hover {
-    color: #000000; }
-  div#contact a i.fa-facebook-square:hover {
-    color: #476EB1; }
+div#contact div#email {
+  line-height: 3em; }
+div#contact a.social-links {
+  color: #333333; }
+div#contact a i.fa-linkedin-square:hover {
+  color: #1A84BC; }
+div#contact a i.fa-google-plus-square:hover {
+  color: #DC2714; }
+div#contact a i.fa-twitter-square:hover {
+  color: #32CCFE; }
+div#contact a i.fa-github-square:hover {
+  color: #000000; }
+div#contact a i.fa-facebook-square:hover {
+  color: #476EB1; }
 
 @media (max-width: 768px) {
   .center-if {
@@ -185,11 +190,6 @@ div#contact {
     margin-right: auto;
     float: none !important; } }
 /* OVERRIDE BOOTSTRAP */
-.container {
-  margin: 0px !important;
-  min-width: 100% !important;
-  padding: 0px !important; }
-
 div.transparent {
   background-color: transparent; }
 
