@@ -4,10 +4,14 @@ $(document).ready(function() {
 				$('a.selected').removeClass('selected');
 				$('a#home-link').addClass('selected');
 				$('span#current-section').html('Home');
-			} else if (window.pageYOffset < $('div#education').offset().top - 5) {
+			} else if (window.pageYOffset < $('div#experience').offset().top - 5) {
 				$('a.selected').removeClass('selected');
 				$('a#about-link').addClass('selected');
 				$('span#current-section').html('About');
+			} else if (window.pageYOffset < $('div#education').offset().top - 5) {
+				$('a.selected').removeClass('selected');
+				$('a#experience-link').addClass('selected');
+				$('span#current-section').html('Experience');
 			} else if (window.pageYOffset < $('div#skills').offset().top - 5) {
 				$('a.selected').removeClass('selected');
 				$('a#education-link').addClass('selected');

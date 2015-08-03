@@ -154,8 +154,9 @@ div#skills div.skill-info {
     display: none; } }
 
 /* EDUCATION SECITON */
-div#education img {
-  height: 150px;
+div#education img, div#experience img {
+  max-height: 150px;
+  max-width: 150px;
   padding: 10px 0px; }
 
 /* CONTACT SECTION */

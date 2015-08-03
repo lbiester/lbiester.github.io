@@ -230,9 +230,10 @@ div#skills {
 
 
 /* EDUCATION SECITON */
-div#education {
+div#education, div#experience {
   img {
-    height: 150px;
+    max-height: 150px;
+    max-width: 150px;
     padding: 10px 0px;
   }
 }
