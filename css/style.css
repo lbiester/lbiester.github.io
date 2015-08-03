@@ -34,9 +34,6 @@ nav {
         display: block;
         background-color: #333333;
         opacity: 0.95;
-        /*         border-left: 1px solid gray;
-        border-right: 1px solid gray;
-         */
         border-bottom: 1px solid gray; }
     nav span.mobile-links {
       color: gray; }
@@ -47,15 +44,14 @@ nav {
 
 /* ALL NAVIGATION TEXT */
 nav {
-  font-size: 20px;
-  color: gray; }
+  font-size: 20px; }
 
 /* NAVIGATION LINKS */
 a.nav-link,
 a#show-links {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
-  color: gray; }
+  color: #FFFFFF; }
   a.nav-link:active,
   a#show-links:active {
     text-decoration: none; }
@@ -64,21 +60,16 @@ a#show-links {
   a#show-links.selected {
     text-decoration: none;
     font-weight: bold;
-    cursor: pointer; }
+    cursor: pointer;
+    color: #03AFB3; }
 
 a.nav-link {
   padding: 0px 20px; }
 
-nav ul li a#home-link:hover, nav ul li a#home-link.selected {
-  color: #FFFFFF; }
-nav ul li a#about-link:hover, nav ul li a#about-link.selected {
-  color: #F0FFFD; }
-nav ul li a#skills-link:hover, nav ul li a#skills-link.selected {
-  color: #FFFFFF; }
-nav ul li a#education-link:hover, nav ul li a#education-link.selected {
-  color: #FFFFFF; }
-nav ul li a#contact-link:hover, nav ul li a#contact-link.selected {
-  color: #FFFFFF; }
+a {
+  color: #03AFB3; }
+  a:hover {
+    color: #03AFB3; }
 
 /* PAGE SECTIONS */
 .section {
@@ -98,8 +89,7 @@ nav ul li a#contact-link:hover, nav ul li a#contact-link.selected {
     font-family: "Poiret One", sans-serif;
     text-transform: uppercase;
     font-size: 30pt;
-    -webkit-text-decoration: underline solid #34164D;
-    text-decoration: underline solid #34164D; }
+    color: #03AFB3; }
 
 /* HOME SECTION */
 div#home {
@@ -111,7 +101,8 @@ div#home {
     font-size: 80px;
     font-family: "Poiret One", "Raleway", sans-serif; }
   div#home h4 {
-    font-family: "Raleway", sans-serif; }
+    font-family: "Raleway", sans-serif;
+    color: #03AFB3; }
   div#home div#home-title {
     padding-left: 60px; }
   div#home div#home-content {
@@ -128,19 +119,20 @@ div#skills a.download-button:active,
 div#skills a.download-button:visited {
   width: 100%;
   display: inline-block;
-  border: 1px solid #999999;
-  color: #333333;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  background-color: #03AFB3;
+  color: #FFFFFF;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
   padding: 5px;
   text-align: center;
-  transition: all .4s ease-in-out; }
+  transition: all 1s ease-in-out; }
   div#skills a.download-button:hover,
   div#skills a.download-button:active:hover,
   div#skills a.download-button:visited:hover {
     text-decoration: none;
-    border-radius: 5px; }
+    border-radius: 2px;
+    color: gray; }
 div#skills div.skills-row {
   min-height: 150px; }
   div#skills div.skills-row div {
@@ -167,20 +159,34 @@ div#education img {
   padding: 10px 0px; }
 
 /* CONTACT SECTION */
+div#contact a {
+  color: #000000;
+  transition: all 1s ease-in-out; }
+  div#contact a:hover i.fa-envelope {
+    color: #03AFB3; }
 div#contact div#email {
   line-height: 3em; }
-div#contact a.social-links {
-  color: #333333; }
-div#contact a i.fa-linkedin-square:hover {
-  color: #1A84BC; }
-div#contact a i.fa-google-plus-square:hover {
-  color: #DC2714; }
-div#contact a i.fa-twitter-square:hover {
-  color: #32CCFE; }
-div#contact a i.fa-github-square:hover {
-  color: #000000; }
-div#contact a i.fa-facebook-square:hover {
-  color: #476EB1; }
+div#contact ul.social-icons {
+  text-align: center; }
+  div#contact ul.social-icons li {
+    display: inline-block;
+    background-color: #000000;
+    width: 50px;
+    height: 50px;
+    padding-top: 9px;
+    border-radius: 25px; }
+    div#contact ul.social-icons li#linkedin {
+      background-color: #1A84BC; }
+    div#contact ul.social-icons li#facebook {
+      background-color: #476EB1; }
+    div#contact ul.social-icons li#twitter {
+      background-color: #32CCFE; }
+    div#contact ul.social-icons li#github {
+      background-color: #000000; }
+    div#contact ul.social-icons li a.social-links {
+      color: #FFFFFF; }
+      div#contact ul.social-icons li a.social-links:hover {
+        color: gray; }
 
 @media (max-width: 768px) {
   .center-if {

@@ -15,6 +15,7 @@ $twitter-color: #32CCFE;
 $facebook-color: #476EB1;
 
 $main-color: #333333;
+$highlight-color: #03AFB3;
 
 body {
   background-color: #FAFFFF;
@@ -59,9 +60,7 @@ nav {
         display: block;
         background-color: $main-color;
         opacity: 0.95;
-/*         border-left: 1px solid gray;
-border-right: 1px solid gray;
- */        border-bottom: 1px solid gray;
+        border-bottom: 1px solid gray;
       }
     }
     span.mobile-links {
@@ -81,7 +80,6 @@ border-right: 1px solid gray;
 /* ALL NAVIGATION TEXT */
 nav {
   font-size: 20px;
-  color: gray;
 }
 
 /* NAVIGATION LINKS */
@@ -89,7 +87,7 @@ a.nav-link,
 a#show-links {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
-  color: gray;
+  color: #FFFFFF;
   &:active {
     text-decoration: none;
   }
@@ -99,36 +97,17 @@ a#show-links {
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
+    color: $highlight-color;
   }
 }
 a.nav-link {
   padding: 0px 20px;
 }
 
-nav ul li a {
-  &#home-link:hover,
-  &#home-link.selected {
-    color: #FFFFFF;
-  }
-
-  &#about-link:hover,
-  &#about-link.selected {
-    color: $about-color;
-  }
-
-  &#skills-link:hover,
-  &#skills-link.selected {
-    color: $skills-color;
-  }
-
-  &#education-link:hover,
-  &#education-link.selected {
-    color: $education-color;
-  }
-
-  &#contact-link:hover,
-  &#contact-link.selected {
-    color: $contact-color;
+a {
+  color: $highlight-color;
+  &:hover {
+    color: $highlight-color;
   }
 }
 
@@ -154,6 +133,7 @@ nav ul li a {
     font-family: "Poiret One", sans-serif;
     text-transform: uppercase;
     font-size: 30pt;
+    color: $highlight-color;
   }
 }
 
@@ -172,6 +152,7 @@ div#home {
 
   h4 {
     font-family: "Raleway", sans-serif;
+    color: $highlight-color;
   }
 
   div#home-title {
@@ -200,17 +181,18 @@ div#skills {
   a.download-button:visited {
     width: 100%;
     display: inline-block;
-    border: 1px solid #999999;
-    color: $main-color;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    background-color: $highlight-color;
+    color: #FFFFFF;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
     padding: 5px;
     text-align: center;
-    transition: all .4s ease-in-out;
+    transition: all 1s ease-in-out;
     &:hover {
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 2px;
+      color: gray;
     }
   }
 
@@ -257,33 +239,53 @@ div#education {
 
 /* CONTACT SECTION */
 div#contact {
+  a {
+    color: #000000;
+    transition: all 1s ease-in-out;
+
+    &:hover {
+      i.fa-envelope {
+        color: $highlight-color;
+      }
+    }
+  }
   div#email {
     line-height: 3em;
   }
 
-  a {
-    &.social-links {
-      color: $main-color;
-    }
+  ul.social-icons {
+    text-align: center;
 
-    i.fa-linkedin-square:hover {
-      color: $linkedin-color;
-    }
+    li {
+      display: inline-block;
+      background-color: #000000;
+      width: 50px;
+      height: 50px;
+      padding-top: 9px;
+      border-radius: 25px;
 
-    i.fa-google-plus-square:hover {
-      color: $google-plus-color;
-    }
+      &#linkedin {
+        background-color: $linkedin-color;
+      }
 
-    i.fa-twitter-square:hover {
-      color: $twitter-color;
-    }
+      &#facebook {
+        background-color: $facebook-color;
+      }
 
-    i.fa-github-square:hover {
-      color: #000000;
-    }
+      &#twitter {
+        background-color: $twitter-color;
+      }
 
-    i.fa-facebook-square:hover {
-      color: #476EB1;
+      &#github {
+        background-color: #000000;
+      }
+
+      a.social-links {
+        color: #FFFFFF;
+        &:hover {
+          color: gray;
+        }
+      }
     }
   }
 }
