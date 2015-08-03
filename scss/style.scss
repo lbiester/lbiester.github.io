@@ -58,13 +58,13 @@ nav {
       display: none;
      li {
         display: block;
-        background-color: $main-color;
-        opacity: 0.95;
+        background-color: #000000;
+        opacity: 0.99;
         border-bottom: 1px solid gray;
       }
     }
     span.mobile-links {
-      color: gray;
+      color: $highlight-color;
       div {
         padding: 0px 20px !important;
 
@@ -181,18 +181,19 @@ div#skills {
   a.download-button:visited {
     width: 100%;
     display: inline-block;
-    background-color: $highlight-color;
-    color: #FFFFFF;
+    color: $highlight-color;
+    background-color: #FFFFFF;
+    border: 2px solid $highlight-color;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 1px;
     padding: 5px;
     text-align: center;
-    transition: all 1s ease-in-out;
+    transition: all .7s ease-in-out;
     &:hover {
+      background-color: $highlight-color;
+      color: #FFFFFF;
       text-decoration: none;
-      border-radius: 2px;
-      color: gray;
     }
   }
 

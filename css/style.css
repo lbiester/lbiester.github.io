@@ -32,11 +32,11 @@ nav {
       display: none; }
       nav ul li {
         display: block;
-        background-color: #333333;
-        opacity: 0.95;
+        background-color: #000000;
+        opacity: 0.99;
         border-bottom: 1px solid gray; }
     nav span.mobile-links {
-      color: gray; }
+      color: #03AFB3; }
       nav span.mobile-links div {
         padding: 0px 20px !important; }
         nav span.mobile-links div span#current-section {
@@ -119,20 +119,21 @@ div#skills a.download-button:active,
 div#skills a.download-button:visited {
   width: 100%;
   display: inline-block;
-  background-color: #03AFB3;
-  color: #FFFFFF;
+  color: #03AFB3;
+  background-color: #FFFFFF;
+  border: 2px solid #03AFB3;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   border-radius: 1px;
   padding: 5px;
   text-align: center;
-  transition: all 1s ease-in-out; }
+  transition: all .7s ease-in-out; }
   div#skills a.download-button:hover,
   div#skills a.download-button:active:hover,
   div#skills a.download-button:visited:hover {
-    text-decoration: none;
-    border-radius: 2px;
-    color: gray; }
+    background-color: #03AFB3;
+    color: #FFFFFF;
+    text-decoration: none; }
 div#skills div.skills-row {
   min-height: 150px; }
   div#skills div.skills-row div {
