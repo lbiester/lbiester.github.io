@@ -17,10 +17,6 @@ $facebook-color: #476EB1;
 $main-color: #333333;
 $highlight-color: #03AFB3;
 
-body {
-  background-color: #FAFFFF;
-}
-
 /* NAVIGATION BAR */
 nav {
   z-index: 1;
@@ -67,10 +63,6 @@ nav {
       color: $highlight-color;
       div {
         padding: 0px 20px !important;
-
-        span#current-section {
-          font-weight: bold;
-        }
       }
     }
   }
@@ -148,6 +140,7 @@ div#home {
   h1 {
     font-size: 80px;
     font-family: "Poiret One", "Raleway", sans-serif;
+    color: #7D0366;
   }
 
   h4 {
@@ -181,9 +174,9 @@ div#skills {
   a.download-button:visited {
     width: 100%;
     display: inline-block;
-    color: $highlight-color;
-    background-color: #FFFFFF;
-    border: 2px solid $highlight-color;
+    color: #FFFFFF;
+    background-color: $highlight-color;
+    border: 1px solid $highlight-color;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 1px;
@@ -192,7 +185,8 @@ div#skills {
     transition: all .7s ease-in-out;
     &:hover {
       background-color: $highlight-color;
-      color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      background-color: #03A0A3;
       text-decoration: none;
     }
   }
@@ -206,7 +200,7 @@ div#skills {
       img {
         height: 150px;
         padding: 10px 0px;
-        -webkit-transition:-webkit-filter 1.0s ease-in-out;
+        -webkit-transition:-webkit-filter .7s ease-in-out;
       }
 
       img.grayscale {
@@ -236,6 +230,10 @@ div#education, div#experience {
     max-height: 150px;
     max-width: 150px;
     padding: 10px 0px;
+
+    &#pearson {
+      padding-top: 80px;
+    }
   }
 }
 
@@ -246,9 +244,7 @@ div#contact {
     transition: all 1s ease-in-out;
 
     &:hover {
-      i.fa-envelope {
-        color: $highlight-color;
-      }
+      color: $highlight-color;
     }
   }
   div#email {

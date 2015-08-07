@@ -2,9 +2,6 @@
    Modified: 3-18-15
    Author: Laura Biester */
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
-body {
-  background-color: #FAFFFF; }
-
 /* NAVIGATION BAR */
 nav {
   z-index: 1;
@@ -38,9 +35,7 @@ nav {
     nav span.mobile-links {
       color: #03AFB3; }
       nav span.mobile-links div {
-        padding: 0px 20px !important; }
-        nav span.mobile-links div span#current-section {
-          font-weight: bold; } }
+        padding: 0px 20px !important; } }
 
 /* ALL NAVIGATION TEXT */
 nav {
@@ -99,7 +94,8 @@ div#home {
   background-repeat: no-repeat; }
   div#home h1 {
     font-size: 80px;
-    font-family: "Poiret One", "Raleway", sans-serif; }
+    font-family: "Poiret One", "Raleway", sans-serif;
+    color: #7D0366; }
   div#home h4 {
     font-family: "Raleway", sans-serif;
     color: #03AFB3; }
@@ -119,9 +115,9 @@ div#skills a.download-button:active,
 div#skills a.download-button:visited {
   width: 100%;
   display: inline-block;
-  color: #03AFB3;
-  background-color: #FFFFFF;
-  border: 2px solid #03AFB3;
+  color: #FFFFFF;
+  background-color: #03AFB3;
+  border: 1px solid #03AFB3;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   border-radius: 1px;
@@ -132,7 +128,8 @@ div#skills a.download-button:visited {
   div#skills a.download-button:active:hover,
   div#skills a.download-button:visited:hover {
     background-color: #03AFB3;
-    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background-color: #03A0A3;
     text-decoration: none; }
 div#skills div.skills-row {
   min-height: 150px; }
@@ -141,7 +138,7 @@ div#skills div.skills-row {
     div#skills div.skills-row div img {
       height: 150px;
       padding: 10px 0px;
-      -webkit-transition: -webkit-filter 1.0s ease-in-out; }
+      -webkit-transition: -webkit-filter .7s ease-in-out; }
     div#skills div.skills-row div img.grayscale {
       -webkit-filter: grayscale(1);
       filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale");
@@ -159,12 +156,14 @@ div#education img, div#experience img {
   max-height: 150px;
   max-width: 150px;
   padding: 10px 0px; }
+  div#education img#pearson, div#experience img#pearson {
+    padding-top: 80px; }
 
 /* CONTACT SECTION */
 div#contact a {
   color: #000000;
   transition: all 1s ease-in-out; }
-  div#contact a:hover i.fa-envelope {
+  div#contact a:hover {
     color: #03AFB3; }
 div#contact div#email {
   line-height: 3em; }
