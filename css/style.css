@@ -1,5 +1,5 @@
 /* Styles for laurabiester.com
-   Modified: 3-18-15
+   Modified: 8-8-15
    Author: Laura Biester */
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
 /* NAVIGATION BAR */
@@ -11,8 +11,8 @@ nav {
   height: 60px;
   background-color: #000000;
   opacity: 0.99;
-  color: gray;
-  line-height: 60px; }
+  line-height: 60px;
+  font-size: 20px; }
   nav div {
     margin: 0px;
     padding: 0px !important; }
@@ -36,10 +36,6 @@ nav {
       color: #03AFB3; }
       nav span.mobile-links div {
         padding: 0px 20px !important; } }
-
-/* ALL NAVIGATION TEXT */
-nav {
-  font-size: 20px; }
 
 /* NAVIGATION LINKS */
 a.nav-link,
@@ -196,8 +192,5 @@ div#contact ul.social-icons {
     margin-left: auto;
     margin-right: auto;
     float: none !important; } }
-/* OVERRIDE BOOTSTRAP */
-div.transparent {
-  background-color: transparent; }
 
 /*# sourceMappingURL=style.css.map */
