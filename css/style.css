@@ -152,8 +152,9 @@ div#education img, div#experience img {
   max-height: 150px;
   max-width: 150px;
   padding: 10px 0px; }
-  div#education img#pearson, div#experience img#pearson {
-    padding-top: 80px; }
+  @media (min-width: 769px) {
+    div#education img#pearson, div#experience img#pearson {
+      padding-top: 80px; } }
 
 /* CONTACT SECTION */
 div#contact a {

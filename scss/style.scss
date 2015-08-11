@@ -221,7 +221,9 @@ div#education, div#experience {
     padding: 10px 0px;
 
     &#pearson {
-      padding-top: 80px;
+      @media (min-width: 769px) {
+        padding-top: 80px;
+      }
     }
   }
 }
