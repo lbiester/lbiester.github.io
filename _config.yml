@@ -1,0 +1,69 @@
+# Site
+repository: lbiester/lbiester.github.io
+favicon: images/laura-icon.ico
+
+# Personal info
+name: Laura Biester
+title: Computer Science PhD Student
+email: lbiester@umich.edu
+
+# Social links
+# twitter_username: lbiester23
+github_username:  lbiester
+facebook_username: lbiester
+linkedin_username: lbiester
+pinterest_username: biesterl
+cv: cv.pdf
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I am a second-year PhD Student at the University of Michigan, where I work with Dr. Rada Mihalcea on natural language processing and computational social science. I am interested in gaining a better understanding of people through langauge data and AI for social good.
+
+  After completing my PhD, I hope to stay in academia as a faculty member.
+
+  Before I was a graduate student, I spent two years at Pinterest as a software engineer, and earned my BA in computer science from Carleton College in 2016.
+
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+# more_content: | # this will include new lines to allow paragraphs
+#   This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+#
+#   Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+# Footer
+footer_show_references: false
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
