@@ -2,20 +2,20 @@
 - layout: left
   company: University of Michigan
   link:
-  job_title: Instructor
-  dates: September 2019 - Present
-  quote: >
-  description: | # this will include new lines to allow paragraphs
-    Primary instructor for EECS 198, Discover Computer Science. Responsibilities in- clude weekly lectures, grading, curriculum/assignment design, and managing a team of two undergraduate teaching assistants.
-
-- layout: left
-  company: University of Michigan
-  link:
   job_title: Graduate Student Research Assistant
   dates: September 2018 - Present
   quote: >
   description: | # this will include new lines to allow paragraphs
     Research assistant for Dr. Rada Mihalcea, focusing on natural language processing and computational social science. My current project focuses on applying NLP and machine learning techniques to data from students at the University of Michigan. From the data, we hope to be able to build a profile of students using numerous factors that may predict their academic success and mental health.
+
+- layout: left
+  company: University of Michigan
+  link:
+  job_title: Instructor
+  dates: September 2019 - December 2019
+  quote: >
+  description: | # this will include new lines to allow paragraphs
+    Primary instructor for EECS 198, Discover Computer Science. Responsibilities include weekly lectures, grading, curriculum/assignment design, and managing a team of two undergraduate teaching assistants.
 
 - layout: left
   company: Pinterest
