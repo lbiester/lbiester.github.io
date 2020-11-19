@@ -1,15 +1,22 @@
 <div class="row clearfix layout">
-  <div class="col-xs-12 col-sm-11 col-md-11 col-print-11">
+  <div class="col-xs-12 col-sm-10 col-md-10 col-print-10">
     {%- if include.item.paper_title -%}<h4>{{ include.item.paper_title }}</h4>{%- endif -%}
     {%- if include.item.authors -%}{{ include.item.authors | markdownify }}{%- endif -%}
     {%- if include.item.venue -%}<em>{{ include.item.venue | markdownify }}</em>{%- endif -%}
   </div>
-  <div class="col-xs-12 col-sm-1 col-md-1 col-print-1">
+  <div class="col-xs-12 col-sm-2 col-md-2 col-print-2">
     <ul class="icons no-print">
     {%- if include.item.pdf -%}
       <li>
       <a target="_blank" href="{{ include.item.pdf }}" class="button button--sacnite button--round-s">
-        <i class="fa fa-file" title="PDF"></i>
+        <i class="fa fa-file small" title="PDF"></i>
+      </a>
+      </li>
+    {%- endif -%}
+    {%- if include.item.code -%}
+      <li>
+      <a target="_blank" href="{{ include.item.code }}" class="button button--sacnite button--round-s">
+        <i class="fa fa-code small" title="Code"></i>
       </a>
       </li>
     {%- endif -%}

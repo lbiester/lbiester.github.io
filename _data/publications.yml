@@ -3,8 +3,10 @@
   authors: __Laura Biester__, Carmen Banea, Rada Mihalcea
   venue: AACL-IJCNLP 2020
   pdf: https://lit.eecs.umich.edu/files/aacl_location_embeddings_2020.pdf
+  code: https://lit.eecs.umich.edu/downloads.html#Location%20Embeddings
 
 - paper_title: Quantifying the Effects of COVID-19 on Mental Health Support Forums
   authors: __Laura Biester__\*, Katie Matton\*, Janarthanan Rajendran, Emily Mower Provost, Rada Mihalcea (\* = equal contribution)
   venue: NLP COVID-19 Workshop @ EMNLP 2020
-  pdf: https://lit.eecs.umich.edu/files/mh_covid_2020.pdf
+  pdf: https://www.aclweb.org/anthology/2020.nlpcovid19-2.8.pdf
+  code: https://github.com/lbiester/COVID-Mental-Health
