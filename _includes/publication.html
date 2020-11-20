@@ -9,7 +9,7 @@
     {%- if include.item.pdf -%}
       <li>
       <a target="_blank" href="{{ include.item.pdf }}" class="button button--sacnite button--round-s">
-        <i class="fa fa-file small" title="PDF"></i>
+        <i class="fas fa-file-pdf small" title="PDF"></i>
       </a>
       </li>
     {%- endif -%}
@@ -17,6 +17,20 @@
       <li>
       <a target="_blank" href="{{ include.item.code }}" class="button button--sacnite button--round-s">
         <i class="fa fa-code small" title="Code"></i>
+      </a>
+      </li>
+    {%- endif -%}
+    {%- if include.item.video -%}
+      <li>
+      <a target="_blank" href="{{ include.item.video }}" class="button button--sacnite button--round-s">
+        <i class="fa fa-video small" title="Video"></i>
+      </a>
+      </li>
+    {%- endif -%}
+    {%- if include.item.slides -%}
+      <li>
+      <a target="_blank" href="{{ include.item.slides }}" class="button button--sacnite button--round-s">
+        <i class="fas fa-file-powerpoint small" title="Slides"></i>
       </a>
       </li>
     {%- endif -%}
