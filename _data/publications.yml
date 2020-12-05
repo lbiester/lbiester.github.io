@@ -2,8 +2,10 @@
 - paper_title: Building Location Embeddings from Physical Trajectories and Textual Representations
   authors: __Laura Biester__, Carmen Banea, Rada Mihalcea
   venue: AACL-IJCNLP 2020
-  pdf: https://lit.eecs.umich.edu/files/aacl_location_embeddings_2020.pdf
+  pdf: https://www.aclweb.org/anthology/2020.aacl-main.44.pdf
   code: https://lit.eecs.umich.edu/downloads.html#Location%20Embeddings
+  video: https://www.youtube.com/watch?v=C8LRb5a_p1g
+  slides: files/slides/aacl2020.pdf
 
 - paper_title: Quantifying the Effects of COVID-19 on Mental Health Support Forums
   authors: __Laura Biester__\*, Katie Matton\*, Janarthanan Rajendran, Emily Mower Provost, Rada Mihalcea (\* = equal contribution)

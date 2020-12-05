@@ -19,7 +19,7 @@ cv: cv.pdf
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a third-year PhD Student at the [University of Michigan](https://umich.edu/), where I work with [Dr. Rada Mihalcea](https://web.eecs.umich.edu/~mihalcea/) on natural language processing and computational social science. I am interested in gaining a better understanding of people through language data and AI for social good.
+  I am a third-year PhD student at the [University of Michigan](https://umich.edu/), where I work with [Dr. Rada Mihalcea](https://web.eecs.umich.edu/~mihalcea/) on natural language processing and computational social science. I am interested in gaining a better understanding of people through language data and AI for social good.
 
   After completing my PhD, I hope to stay in academia as a faculty member.
 
