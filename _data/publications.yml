@@ -3,7 +3,7 @@
   authors: __Laura Biester__, Carmen Banea, Rada Mihalcea
   venue: AACL-IJCNLP 2020
   pdf: https://www.aclweb.org/anthology/2020.aacl-main.44.pdf
-  code: https://lit.eecs.umich.edu/downloads.html#Location%20Embeddings
+  code: https://zenodo.org/record/4479440
   video: https://www.youtube.com/watch?v=C8LRb5a_p1g
   slides: files/slides/aacl2020.pdf
 
@@ -11,6 +11,6 @@
   authors: __Laura Biester__\*, Katie Matton\*, Janarthanan Rajendran, Emily Mower Provost, Rada Mihalcea (\* = equal contribution)
   venue: NLP COVID-19 Workshop @ EMNLP 2020
   pdf: https://www.aclweb.org/anthology/2020.nlpcovid19-2.8.pdf
-  code: https://github.com/lbiester/COVID-Mental-Health
+  code: https://zenodo.org/record/4480136
   video: https://slideslive.com/38939847
   slides: files/slides/emnlp2020_covidworkshop.pdf
