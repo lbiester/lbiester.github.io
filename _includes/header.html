@@ -83,10 +83,24 @@
             </a>
           </li>
         {%- endif -%}
-				{%- if site.cv -%}
+        {%- if site.orcid -%}
+          <li>
+            <a target="_blank" href="https://orcid.org/{{ site.orcid| escape }}" class="button button--sacnite button--round-l">
+              <i class="ai ai-orcid" title="ORC iD Link"></i>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if site.google_scholar -%}
+          <li>
+            <a target="_blank" href="https://scholar.google.com/citations?user={{ site.google_scholar| escape }}" class="button button--sacnite button--round-l">
+              <i class="ai ai-google-scholar" title="Google Scholar"></i>
+            </a>
+          </li>
+        {%- endif -%}
+		{%- if site.cv -%}
           <li>
             <a target="_blank" href="files/{{ site.cv }}" class="button button--sacnite button--round-l">
-              <i class="fa fa-file" title="CV link"></i>
+              <i class="ai ai-cv" title="CV link"></i>
             </a>
           </li>
         {%- endif -%}
