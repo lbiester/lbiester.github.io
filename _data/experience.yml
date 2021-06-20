@@ -1,12 +1,21 @@
 # Experience template
 - layout: left
+  company: IBM
+  link:
+  job_title: Research Intern
+  dates: Summer 2021
+  quote: >
+  description: | # this will include new lines to allow paragraphs
+    Working on the [EMRA](https://researcher.watson.ibm.com/researcher/view_group.php?id=7664) (electronic medical records analysis) team on the [TREC 2021 Clinical Trials Track](http://www.trec-cds.org/2021.html) challenge. My project involves matching patient descriptions to clinical trials using deep learning.
+
+- layout: left
   company: University of Michigan
   link:
   job_title: Instructor
   dates: Fall 2019, Fall 2020
   quote: >
   description: | # this will include new lines to allow paragraphs
-    Primary instructor for EECS 198, Discover Computer Science. Responsibilities include weekly lectures, grading, curriculum/assignment design, and managing a team of two undergraduate teaching assistants.
+    Primary instructor for EECS 198, [Discover Computer Science](https://girlsencoded.eecs.umich.edu/discoverCS/). Responsibilities include weekly lectures, grading, curriculum/assignment design, and managing a team of two undergraduate teaching assistants.
 
 - layout: left
   company: Pinterest
