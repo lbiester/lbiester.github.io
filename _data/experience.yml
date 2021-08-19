@@ -6,7 +6,7 @@
   dates: Summer 2021
   quote: >
   description: | # this will include new lines to allow paragraphs
-    Working on the [EMRA](https://researcher.watson.ibm.com/researcher/view_group.php?id=7664) (electronic medical records analysis) team on the [TREC 2021 Clinical Trials Track](http://www.trec-cds.org/2021.html) challenge. My project involves matching patient descriptions to clinical trials using deep learning.
+    Working on the [EMRA](https://researcher.watson.ibm.com/researcher/view_group.php?id=7664) (electronic medical records analysis) team on the [TREC 2021 Clinical Trials Track](http://www.trec-cds.org/2021.html) challenge. My project involved matching patient descriptions to clinical trials using deep learning.
 
 - layout: left
   company: University of Michigan
