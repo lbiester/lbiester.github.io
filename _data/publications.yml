@@ -1,9 +1,11 @@
 # Publications template
 - paper_title: Understanding the Impact of COVID-19 on Online Mental Health Forums
   authors: __Laura Biester__, Katie Matton, Janarthanan Rajendran, Emily Mower Provost, Rada Mihalcea
-  venue: ACM Transactions on Management Information Systems
-  pdf: https://dl.acm.org/doi/10.1145/3458770?cid=99659875465
+  venue: "ACM Transactions on Management Information Systems: Special Issue on Using AI and DATA Science to Handle Pandemic and Related Disruptions (2021)"
+  pdf: files/papers/tmis2021.pdf
   code: https://github.com/lbiester/COVID-Mental-Health/tree/journal
+  doi: 10.1145/3458770
+  poster: files/posters/aisymposium2020.pdf
 
 - paper_title: Building Location Embeddings from Physical Trajectories and Textual Representations
   authors: __Laura Biester__, Carmen Banea, Rada Mihalcea
@@ -20,3 +22,4 @@
   code: https://zenodo.org/record/4480136
   video: https://slideslive.com/38939847
   slides: files/slides/emnlp2020_covidworkshop.pdf
+  doi: 10.18653/v1/2020.nlpcovid19-2.8

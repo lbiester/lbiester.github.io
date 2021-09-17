@@ -34,6 +34,20 @@
       </a>
       </li>
     {%- endif -%}
+    {%- if include.item.poster -%}
+        <li>
+        <a target="_blank" href="{{ include.item.poster }}" class="button button--sacnite button--round-s">
+          <i class="fas fa-columns small" title="Poster"></i>
+        </a>
+        </li>
+    {%- endif -%}
+    {%- if include.item.doi -%}
+        <li>
+        <a target="_blank" href="https://doi.org/{{ include.item.doi }}" class="button button--sacnite button--round-s">
+          <i class="ai ai-doi small" title="DOI"></i>
+        </a>
+        </li>
+    {%- endif -%}
     </ul>
   </div>
 </div>
