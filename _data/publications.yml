@@ -1,4 +1,10 @@
 # Publications template
+- paper_title: IBM @ TREC Clinical Trials Track 2021
+  authors: __Laura Biester__, Venkata Joopudi, Bhrarath Dandala
+  venue: "Proceedings of the Thirtieth Text REtrieval Conference (TREC 2021)"
+  pdf: files/papers/trec2021.pdf
+  poster: files/posters/trec2021.pdf
+
 - paper_title: Understanding the Impact of COVID-19 on Online Mental Health Forums
   authors: __Laura Biester__, Katie Matton, Janarthanan Rajendran, Emily Mower Provost, Rada Mihalcea
   venue: "ACM Transactions on Management Information Systems: Special Issue on Using AI and DATA Science to Handle Pandemic and Related Disruptions (2021)"

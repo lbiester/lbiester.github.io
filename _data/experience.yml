@@ -2,6 +2,15 @@
 - layout: left
   company: University of Michigan
   link:
+  job_title: Instructor
+  dates: Winter 2022
+  quote: >
+  description: | # this will include new lines to allow paragraphs
+    Primary instructor for EECS 183, [Elementary Programming Concepts](https://eecs183.github.io/eecs183.org/). Responsibilities include bi-weekly lectures, office hours, updating assignments, grading, and writing exams.
+
+- layout: left
+  company: University of Michigan
+  link:
   job_title: Engineering Teaching Consultant (ETC)
   dates: Fall 2021 - Present
   quote: >
@@ -24,7 +33,7 @@
   dates: Fall 2019, Fall 2020
   quote: >
   description: | # this will include new lines to allow paragraphs
-    Primary instructor for EECS 198, [Discover Computer Science](https://girlsencoded.eecs.umich.edu/discoverCS/). Responsibilities include weekly lectures, grading, curriculum/assignment design, and managing a team of two undergraduate teaching assistants.
+    Primary instructor for EECS 198 (now EECS 110), [Discover Computer Science](https://girlsencoded.eecs.umich.edu/discoverCS/). Responsibilities include weekly lectures, grading, curriculum/assignment design, and managing a team of two undergraduate teaching assistants.
 
 - layout: left
   company: Pinterest
