@@ -1,4 +1,11 @@
 # Publications template
+- paper_title: Analyzing the Effects of Annotator Gender Across NLP Tasks
+  authors: __Laura Biester__, Vanita Sharma, Ashkan Kazemi, Naihao Deng, Steven Wilson, Rada Mihalcea
+  venue: "NLPerspectives Workshop at LREC 2022"
+  pdf: https://lit.eecs.umich.edu/files/biester_nlperspectives_2022.pdf
+  code: https://github.com/MichiganNLP/Analyzing-the-Effects-of-Annotator-Gender-Across-NLP-Tasks
+  poster: files/posters/nlperspectives2022.pdf
+
 - paper_title: IBM @ TREC Clinical Trials Track 2021
   authors: __Laura Biester__, Venkata Joopudi, Bhrarath Dandala
   venue: "Proceedings of the Thirtieth Text REtrieval Conference (TREC 2021)"
