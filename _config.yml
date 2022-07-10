@@ -20,7 +20,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   I am a fourth-year PhD student at the [University of Michigan](https://umich.edu/), where I work with [Dr. Rada Mihalcea](https://web.eecs.umich.edu/~mihalcea/) on natural language processing and computational social science. I am interested in gaining a better understanding of people through language data and AI for social good. 
   
-  I am currently teaching a 180-student section of [EECS 183 (Elementary Programming Concepts)](https://eecs183.github.io/eecs183.org/) at Michigan. After completing my PhD, I hope to stay in academia as a faculty member.
+  In addition to NLP, I am interested in teaching. At Michigan, I have taught Discover Computer Science and Elementary Programming Concepts as the instructor of record. I am currently teaching NLP at Carleton College's Summer Liberal Arts Institute. After completing my PhD, I hope to stay in academia as a faculty member.
 
   During the Summer of 2021, I was an intern at [IBM Research](https://www.research.ibm.com/) working on Clinical NLP. Before I was a graduate student, I spent two years at [Pinterest](https://www.pinterest.com/) as a software engineer, and earned my BA in computer science from [Carleton College](https://www.carleton.edu/) in 2016.
 
