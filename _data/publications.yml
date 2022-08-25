@@ -1,4 +1,9 @@
 # Publications template
+- paper_title: "We Are in This Together: Quantifying Community Subjective Wellbeing and Resilience"
+  authors: MeiXing Dong, Ruixuan Sun\*, __Laura Biester__\*, Rada Mihalcea (\* = equal contribution)
+  venue: ICWSM 2023 (to appear)
+  pdf: https://arxiv.org/pdf/2208.10766.pdf
+
 - paper_title: Analyzing the Effects of Annotator Gender Across NLP Tasks
   authors: __Laura Biester__, Vanita Sharma, Ashkan Kazemi, Naihao Deng, Steven Wilson, Rada Mihalcea
   venue: "NLPerspectives Workshop at LREC 2022"
