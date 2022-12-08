@@ -4,6 +4,12 @@
   venue: ICWSM 2023 (to appear)
   pdf: https://arxiv.org/pdf/2208.10766.pdf
 
+- paper_title: "Emotional and Cognitive Changes Surrounding Online Depression Identity Claims"
+  authors: __Laura Biester__, James Pennebaker, Rada Mihalcea
+  venue: PLOS ONE (2022)
+  pdf: files/papers/plos2022.pdf
+  doi: 10.1371/journal.pone.0278179
+
 - paper_title: Analyzing the Effects of Annotator Gender Across NLP Tasks
   authors: __Laura Biester__, Vanita Sharma, Ashkan Kazemi, Naihao Deng, Steven Wilson, Rada Mihalcea
   venue: "NLPerspectives Workshop at LREC 2022"
