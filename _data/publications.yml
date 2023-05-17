@@ -1,7 +1,18 @@
 # Publications template
+- paper_title: "Lexical Measurement of Teaching Qualities"
+  authors: __Laura Biester__, Ian Stewart, Laura Hirshfield, Rada Mihalcea, and Sara Pozzi
+  venue: ASEE 2023 (Educational Research and Methods Division)
+  pdf: files/papers/asee2023.pdf
+  code: https://github.com/MichiganNLP/LEEQLexicon
+
+- paper_title: "Improving Mental Health Classifier Generalization with Pre-Diagnosis Data"
+  authors: Yujian Liu\*, __Laura Biester__\*, Rada Mihalcea (\* = equal contribution)
+  venue: ICWSM 2023
+  pdf: files/papers/icwsm_prediagnosis2023.pdf
+
 - paper_title: "We Are in This Together: Quantifying Community Subjective Wellbeing and Resilience"
   authors: MeiXing Dong, Ruixuan Sun\*, __Laura Biester__\*, Rada Mihalcea (\* = equal contribution)
-  venue: ICWSM 2023 (to appear)
+  venue: ICWSM 2023
   pdf: https://arxiv.org/pdf/2208.10766.pdf
 
 - paper_title: "Emotional and Cognitive Changes Surrounding Online Depression Identity Claims"
