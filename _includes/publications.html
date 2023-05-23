@@ -1,5 +1,7 @@
 <div class="container projects-container">
   <h3>{{ site.publications_title | default: "Publications" }}</h3>
+  <br>
+  <p><em>* denotes equal contribution</em></p>
   {% for publication in site.data.publications %}
     {% include publication.html item=publication %}
   {% endfor %}

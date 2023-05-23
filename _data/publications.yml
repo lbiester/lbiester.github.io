@@ -6,12 +6,12 @@
   code: https://github.com/MichiganNLP/LEEQLexicon
 
 - paper_title: "Improving Mental Health Classifier Generalization with Pre-Diagnosis Data"
-  authors: Yujian Liu\*, __Laura Biester__\*, Rada Mihalcea (\* = equal contribution)
+  authors: Yujian Liu\*, __Laura Biester__\*, Rada Mihalcea
   venue: ICWSM 2023
   pdf: files/papers/icwsm_prediagnosis2023.pdf
 
 - paper_title: "We Are in This Together: Quantifying Community Subjective Wellbeing and Resilience"
-  authors: MeiXing Dong, Ruixuan Sun\*, __Laura Biester__\*, Rada Mihalcea (\* = equal contribution)
+  authors: MeiXing Dong, Ruixuan Sun\*, __Laura Biester__\*, Rada Mihalcea
   venue: ICWSM 2023
   pdf: https://arxiv.org/pdf/2208.10766.pdf
 
@@ -33,6 +33,7 @@
   venue: "Proceedings of the Thirtieth Text REtrieval Conference (TREC 2021)"
   pdf: https://trec.nist.gov/pubs/trec30/papers/IBMResearch-CT.pdf
   poster: files/posters/trec2021.pdf
+  slides: files/slides/trec2021.pdf
 
 - paper_title: Understanding the Impact of COVID-19 on Online Mental Health Forums
   authors: __Laura Biester__, Katie Matton, Janarthanan Rajendran, Emily Mower Provost, Rada Mihalcea
@@ -51,7 +52,7 @@
   slides: files/slides/aacl2020.pdf
 
 - paper_title: Quantifying the Effects of COVID-19 on Mental Health Support Forums
-  authors: __Laura Biester__\*, Katie Matton\*, Janarthanan Rajendran, Emily Mower Provost, Rada Mihalcea (\* = equal contribution)
+  authors: __Laura Biester__\*, Katie Matton\*, Janarthanan Rajendran, Emily Mower Provost, Rada Mihalcea
   venue: NLP COVID-19 Workshop @ EMNLP 2020
   pdf: https://www.aclweb.org/anthology/2020.nlpcovid19-2.8.pdf
   code: https://zenodo.org/record/4480136
