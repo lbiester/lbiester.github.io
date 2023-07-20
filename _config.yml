@@ -4,8 +4,8 @@ favicon: images/laura-icon.ico
 
 # Personal info
 name: Laura Biester
-title: Computer Science PhD Candidate
-email: lbiester@umich.edu
+title: Assistant Professor of Computer Science
+email: lbiester@middlebury.edu
 
 # Social links
 github_username:  lbiester
@@ -18,11 +18,11 @@ cv: cv.pdf
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a final-year PhD student at the [University of Michigan](https://umich.edu/), where I work with [Dr. Rada Mihalcea](https://web.eecs.umich.edu/~mihalcea/) on natural language processing and computational social science. I am interested in gaining a better understanding of people through language data and AI for social good. 
-  
-  In addition to NLP, I am interested in teaching. At Michigan, I have taught Discover Computer Science and Elementary Programming Concepts as the instructor of record. I have also taught NLP and supervised research projects at [Carleton College's Summer Liberal Arts Institute](https://www.carleton.edu/summer/pre-college/programs/cs/), which provides high school students with an opportunity to experience college-level academics. After completing my PhD, I hope to stay in academia as a faculty member.
+  I am an Assistant Professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/). I am teaching Introduction to Computing (CSCI 0145) in Fall 2023.
 
-  During the Summer of 2021, I was an intern at [IBM Research](https://www.research.ibm.com/) working on Clinical NLP. Before I was a graduate student, I spent two years at [Pinterest](https://www.pinterest.com/) as a software engineer, and earned my BA in computer science from [Carleton College](https://www.carleton.edu/) in 2016.
+  My research interests are at the intersection of Natural Language Processing (NLP) and Computational Social Science. My Ph.D. thesis focused on modeling change in language over time for individuals with depression, primarily using social media data. I have also done work on perspectivism in NLP, bias in language, and Clinical NLP.
+
+  I completed my Ph.D. in 2023 at the [University of Michigan](https://umich.edu/), and earned my B.A. in computer science from [Carleton College](https://www.carleton.edu/) in 2016. I have also spent time in industry, including a summer as an intern [IBM Research](https://www.research.ibm.com/) working on Clinical NLP and two years as a full-time software engineer at [Pinterest](https://www.pinterest.com/) working on database systems.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
