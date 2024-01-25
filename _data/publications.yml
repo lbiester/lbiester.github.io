@@ -1,4 +1,9 @@
 # Publications template
+- paper_title: "Temporal Arcs of Mental Health: Patterns Behind Changes in Depression over Time"
+  authors: __Laura Biester__, James W. Pennebaker, Rada Mihalcea
+  venue: ACII 2023 Late Breaking Results
+  doi: 10.1109/ACIIW59127.2023.10388098
+
 - paper_title: "Lexical Measurement of Teaching Qualities"
   authors: __Laura Biester__, Ian Stewart, Laura Hirshfield, Rada Mihalcea, and Sara Pozzi
   venue: ASEE 2023 (Educational Research and Methods Division)
@@ -17,7 +22,7 @@
   pdf: https://arxiv.org/pdf/2208.10766.pdf
 
 - paper_title: "Emotional and Cognitive Changes Surrounding Online Depression Identity Claims"
-  authors: __Laura Biester__, James Pennebaker, Rada Mihalcea
+  authors: __Laura Biester__, James W. Pennebaker, Rada Mihalcea
   venue: PLOS ONE (2022)
   pdf: files/papers/plos2022.pdf
   doi: 10.1371/journal.pone.0278179
