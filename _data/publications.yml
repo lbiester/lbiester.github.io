@@ -1,4 +1,9 @@
 # Publications template
+- paper_title: "Has It All Been Solved? Open NLP Research Questions Not Solved by Large Language Models"
+  authors: Oana Ignat\*, Zhijing Jin\*, Artem Abzaliev, __Laura Biester__, Santiago Castro, Naihao Deng, Xinyi Gao, Aylin Gunal, Jacky He, Ashkan Kazemi, Muhammad Khalifa, Namho Koh, Andrew Lee, Siyang Liu, Do June Min, Shinka Mori, Joan Nwatu, Veronica Perez-Rosas, Siqi Shen, Zekun Wang, Winston Wu, Rada Mihalcea
+  venue: LREC-COLING 2024
+  pdf: https://arxiv.org/pdf/2305.12544.pdf
+
 - paper_title: "Temporal Arcs of Mental Health: Patterns Behind Changes in Depression over Time"
   authors: __Laura Biester__, James W. Pennebaker, Rada Mihalcea
   venue: ACII 2023 Late Breaking Results
