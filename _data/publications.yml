@@ -1,4 +1,14 @@
 # Publications template
+- paper_title: "How developments in natural language processing help us in understanding human behaviour"
+  authors: Rada Mihalcea, __Laura Biester__, Ryan L Boyd, Zhijing Jin, Veronica Perez-Rosas, Steven Wilson, James W Pennebaker
+  venue: Nature Human Behaviour (2024)
+  doi: 10.1038/s41562-024-01938-0
+
+- paper_title: "Tightly Coupled Worksheets and Homework Assignments for NLP"
+  authors: __Laura Biester__, Winston Wu
+  venue: Workshop on Teaching NLP at ACL 2024
+  pdf: https://aclanthology.org/2024.teachingnlp-1.8.pdf
+
 - paper_title: "Has It All Been Solved? Open NLP Research Questions Not Solved by Large Language Models"
   authors: Oana Ignat\*, Zhijing Jin\*, Artem Abzaliev, __Laura Biester__, Santiago Castro, Naihao Deng, Xinyi Gao, Aylin Gunal, Jacky He, Ashkan Kazemi, Muhammad Khalifa, Namho Koh, Andrew Lee, Siyang Liu, Do June Min, Shinka Mori, Joan Nwatu, Veronica Perez-Rosas, Siqi Shen, Zekun Wang, Winston Wu, Rada Mihalcea
   venue: LREC-COLING 2024
@@ -64,7 +74,7 @@
 
 - paper_title: Quantifying the Effects of COVID-19 on Mental Health Support Forums
   authors: __Laura Biester__\*, Katie Matton\*, Janarthanan Rajendran, Emily Mower Provost, Rada Mihalcea
-  venue: NLP COVID-19 Workshop @ EMNLP 2020
+  venue: NLP COVID-19 Workshop at EMNLP 2020
   pdf: https://www.aclweb.org/anthology/2020.nlpcovid19-2.8.pdf
   code: https://zenodo.org/record/4480136
   video: https://slideslive.com/38939847
