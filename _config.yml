@@ -18,7 +18,7 @@ cv: cv.pdf
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am an Assistant Professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/). I am teaching [Software Development (CSCI 0312)](https://csci312-f24.github.io/) in Fall 2024.
+  I am an Assistant Professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/). I am teaching [Natural Language Processing (CSCI 0457)](https://middcs.github.io/csci457-s25/) and [Introduction to Computing (CSCI 0145)](https://middcs.github.io/csci0145-s25-web/) in Spring 2025.
 
   My research interests are at the intersection of Natural Language Processing (NLP) and Computational Social Science. My Ph.D. thesis focused on modeling change in language over time for individuals with depression, primarily using social media data. I have also done work on perspectivism in NLP, bias in language, and Clinical NLP.
 
