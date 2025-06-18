@@ -1,4 +1,19 @@
 # Publications template
+- paper_title: "Sports and Women's Sports: Gender Bias in Text Generation with Olympic Data"
+  authors: Siyang Liu, Bianca Brie, Wenda Li, __Laura Biester__, Andrew Lee, James Pennebaker, Rada Mihalcea
+  venue: Findings of ACL 2025
+  pdf: https://arxiv.org/pdf/2503.00018
+
+- paper_title: "Sports and Women's Sports: Gender Bias in Text Generation with Olympic Data"
+  authors: __Laura Biester__
+  venue: NAACL 2025
+  doi: 10.18653/v1/2025.naacl-short.17
+
+- paper_title: "Representing and Clustering Errors in Offensive Language Detection"
+  authors: Jood Otey, __Laura Biester__, Steven Wilson
+  venue: NAACL SRW 2025
+  doi: 10.18653/v1/2025.naacl-srw.36
+
 - paper_title: "How developments in natural language processing help us in understanding human behaviour"
   authors: Rada Mihalcea, __Laura Biester__, Ryan L Boyd, Zhijing Jin, Veronica Perez-Rosas, Steven Wilson, James W Pennebaker
   venue: Nature Human Behaviour (2024)
